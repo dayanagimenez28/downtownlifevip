@@ -183,3 +183,48 @@
     if (!open) w.scrollIntoView({ block: 'start' });
   });
 })();
+
+// Anuncios de Meta: aviso de cookies + Píxel. Solo actúa si la web tiene un ID de Píxel configurado.
+// El píxel no se carga hasta que la persona pulsa "Aceptar". Cada clic en un botón de Airbnb
+// se mide como "Lead" para que Meta aprenda a buscar gente que quiere reservar.
+(function () {
+  var pid = window.DLV_PIXEL;
+  if (!pid) return;
+  var bar = document.getElementById('cookie-bar');
+  var KEY = 'dlv-consent';
+  function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+  var loaded = false;
+  function loadPixel() {
+    if (loaded) return; loaded = true;
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments); };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = [];
+      t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s);
+    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    window.fbq('init', pid);
+    window.fbq('track', 'PageView');
+  }
+  function showBar() { if (bar) bar.hidden = false; }
+  function hideBar() { if (bar) bar.hidden = true; }
+
+  var c = get();
+  if (c === 'yes') loadPixel(); else if (c !== 'no') showBar();
+
+  if (bar) Array.prototype.forEach.call(bar.querySelectorAll('[data-consent]'), function (b) {
+    b.addEventListener('click', function () {
+      var v = b.getAttribute('data-consent'); set(v); hideBar();
+      if (v === 'yes') loadPixel();
+    });
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('[data-cookie-settings]'), function (b) {
+    b.addEventListener('click', function () { showBar(); });
+  });
+
+  // Clics en "Reservar en Airbnb"
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href*="airbnb."]');
+    if (!a || !loaded || !window.fbq) return;
+    window.fbq('track', 'Lead', { content_name: 'Reservar en Airbnb', content_category: location.pathname });
+  }, true);
+})();

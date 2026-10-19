@@ -35,6 +35,9 @@ SITE = {
     "address": "Pampatar, Isla de Margarita, Venezuela",   # zona aproximada: la dirección exacta se envía tras reservar
     "maps": "https://www.google.com/maps/search/?api=1&query=Pampatar,+Nueva+Esparta,+Venezuela",
     "rating": "5,0", "rating_num": 5.0, "reviews": 75, "years": 3,
+    # Anuncios y medición (vacíos = desactivado; la web funciona igual sin ellos)
+    "meta_pixel": "",           # ID del Píxel de Meta (Administrador de eventos), solo números, ej. "123456789012345"
+    "google_verification": "",  # código de verificación de Google Search Console (etiqueta HTML, solo el valor de content)
 }
 ROOT = Path(__file__).parent
 PREVIEW = "--preview" in sys.argv
@@ -196,6 +199,32 @@ def wa_card(title="¿Tienes alguna pregunta?", text="Escríbenos por WhatsApp y 
 def book_url():
     return SITE["airbnb"]
 
+def cookies_text():
+    if SITE.get("meta_pixel"):
+        return ('<h2>Cookies</h2><p>Si lo aceptas en el aviso de cookies, usamos el Píxel de Meta (Facebook e Instagram) para medir qué anuncios traen visitas '
+                'y cuántas personas pulsan el botón de reservar en Airbnb, y para mostrar anuncios a quien ya visitó la web. Si lo rechazas, no se carga. '
+                'Las fuentes tipográficas se sirven desde nuestro propio servidor.</p>'
+                '<p><button type="button" class="btn btn-sm" data-cookie-settings>Cambiar mis preferencias de cookies</button></p>')
+    return ('<h2>Cookies</h2><p>Esta web no utiliza cookies propias ni de terceros con fines de análisis o publicidad. '
+            'Las fuentes tipográficas se sirven desde nuestro propio servidor.</p>')
+
+def consent_bar(lang="es"):
+    """Aviso de cookies: solo aparece si hay Píxel de Meta. El píxel no se carga hasta que la persona acepta."""
+    pid = SITE.get("meta_pixel", "")
+    if not pid:
+        return ""
+    if lang == "en":
+        t = ("We use Meta cookies to measure our ads and show you relevant offers. You can accept or reject them.",
+             "Accept", "Reject", "More info", "privacidad/")
+    else:
+        t = ("Usamos cookies de Meta para medir nuestros anuncios y mostrarte ofertas que te interesen. Puedes aceptarlas o rechazarlas.",
+             "Aceptar", "Rechazar", "Más información", "privacidad/")
+    return (f'<script>window.DLV_PIXEL="{esc(pid)}";</script>'
+            f'<div class="cookie-bar" id="cookie-bar" hidden role="dialog" aria-label="Cookies">'
+            f'<p>{t[0]} <a href="/{t[4]}">{t[3]}</a></p>'
+            f'<div class="cookie-btns"><button type="button" class="btn btn-sm cookie-no" data-consent="no">{t[2]}</button>'
+            f'<button type="button" class="btn btn-primary btn-sm" data-consent="yes">{t[1]}</button></div></div>')
+
 # ---------------------------------------------------------------- plantilla base
 import hashlib as _hashlib
 def asset_v(rel):
@@ -315,6 +344,7 @@ def layout(p, title, description, body, active="", schema=None, og_image="fotos/
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{esc(og_alt or title)}">
 {extra_head}
+{f'<meta name="google-site-verification" content="{esc(SITE["google_verification"])}">' if SITE.get("google_verification") else ''}
 <meta property="og:locale" content="{'en_US' if en else 'es_ES'}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#FFFFFF">
@@ -351,6 +381,7 @@ def layout(p, title, description, body, active="", schema=None, og_image="fotos/
 {wa_float}
 <div class="mobile-book"><div><strong>Downtown Life VIP</strong><span>★ {SITE['rating'].replace(',', '.') if en else SITE['rating']} · {SITE['reviews']} {T['mobile_reviews']}</span></div><a class="btn btn-primary btn-sm" href="{book_url()}" target="_blank" rel="noopener">{T['book']}</a></div>
 {wa_modal(p, lang)}
+{consent_bar(lang)}
 <script src="{p.u('assets/js/main.js')}?v={asset_v('assets/js/main.js')}" defer></script>
 </body>
 </html>
@@ -957,7 +988,7 @@ def page_legal(kind):
     else:
         title = "Privacidad y cookies"
         content = f"""<p>En Downtown Life VIP respetamos tu privacidad. Esta web no tiene formularios ni registro de usuarios, y no recoge datos personales.</p>
-<h2>Cookies</h2><p>Esta web no utiliza cookies propias ni de terceros con fines de análisis o publicidad. Las fuentes tipográficas se sirven desde nuestro propio servidor.</p>
+{cookies_text()}
 <h2>Servicios externos</h2><p>Cuando pulsas un enlace a Airbnb, Google Maps, WhatsApp o Instagram, sales de esta web y se aplican las políticas de privacidad de esos servicios.</p>
 <h2>Reservas</h2><p>Los datos que facilitas al reservar los gestiona Airbnb conforme a su política de privacidad.</p>
 <h2>Contacto</h2><p>Para cualquier consulta sobre privacidad, escríbenos desde la página de <a href="{p.u('contacto/')}">contacto</a>.</p>"""
@@ -965,7 +996,9 @@ def page_legal(kind):
 <section class="section"><div class="container"><div class="prose">{content}</div></div></section>"""
     desc = ("Aviso legal de Downtown Life VIP: quién gestiona la web del apartamento frente al mar en Pampatar y cómo funcionan las reservas a través de Airbnb."
             if kind == "aviso-legal" else
-            "Privacidad y cookies en la web de Downtown Life VIP: no recogemos datos personales ni usamos cookies de análisis o publicidad. Las reservas las gestiona Airbnb.")
+            ("Privacidad y cookies en la web de Downtown Life VIP: qué cookies de Meta usamos si las aceptas y cómo cambiar tu elección. Las reservas las gestiona Airbnb."
+             if SITE.get("meta_pixel") else
+             "Privacidad y cookies en la web de Downtown Life VIP: no recogemos datos personales ni usamos cookies de análisis o publicidad. Las reservas las gestiona Airbnb."))
     return p, layout(p, title, desc, body)
 
 def page_404():
