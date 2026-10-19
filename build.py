@@ -36,7 +36,7 @@ SITE = {
     "maps": "https://www.google.com/maps/search/?api=1&query=Pampatar,+Nueva+Esparta,+Venezuela",
     "rating": "5,0", "rating_num": 5.0, "reviews": 75, "years": 3,
     # Anuncios y medición (vacíos = desactivado; la web funciona igual sin ellos)
-    "meta_pixel": "",           # ID del Píxel de Meta (Administrador de eventos), solo números, ej. "123456789012345"
+    "meta_pixel": "2029927561036295",           # ID del Píxel de Meta (Administrador de eventos), solo números, ej. "123456789012345"
     "google_verification": "",  # código de verificación de Google Search Console (etiqueta HTML, solo el valor de content)
 }
 ROOT = Path(__file__).parent
