@@ -955,13 +955,16 @@ def page_legal(kind):
 <h2>Contacto</h2><p>Para cualquier consulta sobre privacidad, escríbenos desde la página de <a href="{p.u('contacto/')}">contacto</a>.</p>"""
     body = f"""<section class="page-hero"><div class="container"><h1>{title}</h1><p>Última actualización: {fdate(date.today().isoformat())}</p></div></section>
 <section class="section"><div class="container"><div class="prose">{content}</div></div></section>"""
-    return p, layout(p, title, f"{title} de la web de Downtown Life VIP.", body)
+    desc = ("Aviso legal de Downtown Life VIP: quién gestiona la web del apartamento frente al mar en Pampatar y cómo funcionan las reservas a través de Airbnb."
+            if kind == "aviso-legal" else
+            "Privacidad y cookies en la web de Downtown Life VIP: no recogemos datos personales ni usamos cookies de análisis o publicidad. Las reservas las gestiona Airbnb.")
+    return p, layout(p, title, desc, body)
 
 def page_404():
     p = Page("")
     body = f"""<section class="notfound container"><span class="eyebrow">Error 404</span><h1>Esta página no existe</h1><p>Puede que el enlace haya cambiado. Vuelve al inicio o explora la guía de Margarita.</p>
 <p style="margin-top:24px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap"><a class="btn btn-primary" href="{p.u('')}">Ir al inicio</a><a class="btn btn-outline" href="{p.u('blog/')}">Guía de Margarita</a></p></section>"""
-    return layout(p, "Página no encontrada", "La página que buscas no existe.", body, noindex=True)
+    return layout(p, "Página no encontrada", "La página que buscas no existe o ha cambiado de dirección. Vuelve al inicio de Downtown Life VIP o explora la guía de Isla de Margarita.", body, noindex=True)
 
 # ---------------------------------------------------------------- generación
 def write(path, content):
