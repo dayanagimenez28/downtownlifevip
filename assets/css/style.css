@@ -515,3 +515,13 @@ a:hover{color:var(--brand-dark)}
 .amenities-wrap.is-collapsed::after{content:"";position:absolute;left:0;right:0;bottom:56px;height:120px;background:linear-gradient(rgba(255,255,255,0),var(--bg));pointer-events:none}
 .amenities-toggle{margin-top:18px}
 @media (max-width:900px){.main-nav a.nav-book{color:#fff;background:var(--ink);border-bottom:0;border-radius:999px;text-align:center;padding:15px;margin-top:16px;box-shadow:none}}
+
+/* Comodidades en móvil: una sola columna y plegado sin recortes (más fiable en iPhone) */
+.amenities-toggle{touch-action:manipulation;position:relative;z-index:1}
+@media (max-width:640px){
+  .amenities{columns:auto}
+  .amenities-wrap.is-collapsed .amenities{max-height:none;overflow:visible}
+  .amenities-wrap.is-collapsed .amenities section:nth-child(n+3){display:none}
+  .amenities-wrap.is-collapsed::after{display:none}
+  .amenities-toggle{width:100%;justify-content:center}
+}
