@@ -197,6 +197,14 @@ def book_url():
     return SITE["airbnb"]
 
 # ---------------------------------------------------------------- plantilla base
+import hashlib as _hashlib
+def asset_v(rel):
+    """Huella corta del archivo para que los navegadores descarguen la versión nueva tras cada cambio."""
+    try:
+        return _hashlib.md5((Path(__file__).resolve().parent / rel).read_bytes()).hexdigest()[:8]
+    except OSError:
+        return "1"
+
 def layout(p, title, description, body, active="", schema=None, og_image="fotos/og/portada.jpg", og_type="website", noindex=False, og_alt="", extra_head="", lang="es", alternates=None):
     """alternates: lista de (idioma, ruta) con las versiones de esta página en cada idioma (para hreflang)."""
     en = lang == "en"
@@ -315,7 +323,7 @@ def layout(p, title, description, body, active="", schema=None, og_image="fotos/
 <link rel="apple-touch-icon" href="{p.u('apple-touch-icon.png')}">
 {rss}
 <link rel="preload" href="{p.u('assets/fonts/jost-latin-400-normal.woff2')}" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="{p.u('assets/css/style.css')}">
+<link rel="stylesheet" href="{p.u('assets/css/style.css')}?v={asset_v('assets/css/style.css')}">
 {schema_tags}
 </head>
 <body>
@@ -343,7 +351,7 @@ def layout(p, title, description, body, active="", schema=None, og_image="fotos/
 {wa_float}
 <div class="mobile-book"><div><strong>Downtown Life VIP</strong><span>★ {SITE['rating'].replace(',', '.') if en else SITE['rating']} · {SITE['reviews']} {T['mobile_reviews']}</span></div><a class="btn btn-primary btn-sm" href="{book_url()}" target="_blank" rel="noopener">{T['book']}</a></div>
 {wa_modal(p, lang)}
-<script src="{p.u('assets/js/main.js')}" defer></script>
+<script src="{p.u('assets/js/main.js')}?v={asset_v('assets/js/main.js')}" defer></script>
 </body>
 </html>
 """
