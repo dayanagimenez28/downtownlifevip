@@ -1,0 +1,10 @@
+{
+  // Configuración para Cloudflare: publica la carpeta dist/ en el Worker de la web
+  "name": "plain-star-0ac4",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
