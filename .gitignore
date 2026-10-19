@@ -1,0 +1,8 @@
+preview/
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+build.bak
+package.json
+package-lock.json
