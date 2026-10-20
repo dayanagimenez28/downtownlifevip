@@ -9,7 +9,7 @@ date: 2026-10-20
 order: 1
 cover: kayaks-en-la-playa-isla-margarita
 cover_alt: Dos kayaks de colores en la orilla de una playa tranquila de Isla de Margarita
-draft: si
+draft: no
 ---
 
 Isla de Margarita es un destino muy fácil para ir con niños: la isla es pequeña, casi todo está a menos de una hora en carro, hay **playas con olas pequeñas** donde los chamos pueden chapotear tranquilos, **centros comerciales** con cine y feria de comida para las tardes de calor, y comida que les encanta, como las empanadas, las arepas o el pescado frito.
@@ -76,7 +76,7 @@ Cuando aprieta el calor o cae un palo de agua, un centro comercial con aire acon
 
 - **Parque Costa Azul:** el centro comercial más grande de la isla, con tiendas, restaurantes y espacio de sobra para pasear con los chamos sin pasar calor.
 - **Sambil Margarita,** en Pampatar: con **cine, feria de comida** y muchas tiendas, es un plan clásico de tarde para las familias.
-- **La Vela,** también en la zona de Pampatar y Porlamar: tiene un **cine nuevo, súper lujoso y bonito**, perfecto para una tarde de película en familia, además de tiendas y restaurantes.
+- **La Vela,** también en la zona de Pampatar y Porlamar: tiene un **Cines Unidos nuevo, súper lujoso y bonito**, perfecto para una tarde de película en familia, además de tiendas y restaurantes.
 
 Los centros comerciales también son útiles para comprar lo que se haya olvidado en la maleta, desde protector solar hasta trajes de baño o juguetes de playa.
 
@@ -180,7 +180,7 @@ Para los más chiquitos, la bahía de Pampatar, porque tiene el agua muy tranqui
 
 ### ¿Hay centros comerciales en Isla de Margarita?
 
-Sí. El más grande de la isla es Parque Costa Azul. También están el Sambil Margarita, en Pampatar, con cine y feria de comida, y La Vela, con un cine nuevo y muy lujoso.
+Sí. El más grande de la isla es Parque Costa Azul. También están el Sambil Margarita, en Pampatar, con cine y feria de comida, y La Vela, con un Cines Unidos nuevo y muy lujoso.
 
 ### ¿Qué comer en Margarita con niños?
 
@@ -188,7 +188,7 @@ Empanadas de queso o de carne, arepas, cachapas, tequeños, pescado frito con to
 
 ### ¿Qué hacer en Margarita con niños si hace mucho calor?
 
-Ir a Parque Costa Azul o al Sambil, ver una película en el cine nuevo de La Vela, al Museo Marino de Boca del Río, que tiene buena parte de la visita a cubierto, o pasar la tarde en la piscina.
+Ir a Parque Costa Azul o al Sambil, ver una película en el Cines Unidos nuevo de La Vela, al Museo Marino de Boca del Río, que tiene buena parte de la visita a cubierto, o pasar la tarde en la piscina.
 
 ### ¿Hay parques de atracciones en Isla de Margarita?
 
