@@ -36,7 +36,8 @@ SITE = {
     "maps": "https://www.google.com/maps/search/?api=1&query=Pampatar,+Nueva+Esparta,+Venezuela",
     "rating": "5,0", "rating_num": 5.0, "reviews": 75, "years": 3,
     # Anuncios y medición (vacíos = desactivado; la web funciona igual sin ellos)
-    "meta_pixel": "2029927561036295",           # ID del Píxel de Meta (Administrador de eventos), solo números, ej. "123456789012345"
+    "meta_pixel": "",           # ID del Píxel de Meta. Desactivado mientras la cuenta de Meta esté inhabilitada (el píxel era 2029927561036295)
+    "ga4": "",                  # ID de medición de Google Analytics 4, ej. "G-ABC123XYZ9"
     "google_verification": "",  # código de verificación de Google Search Console (etiqueta HTML, solo el valor de content)
 }
 ROOT = Path(__file__).parent
@@ -199,27 +200,35 @@ def wa_card(title="¿Tienes alguna pregunta?", text="Escríbenos por WhatsApp y 
 def book_url():
     return SITE["airbnb"]
 
+def tracking_on():
+    return bool(SITE.get("meta_pixel") or SITE.get("ga4"))
+
 def cookies_text():
+    if not tracking_on():
+        return ('<h2>Cookies</h2><p>Esta web no utiliza cookies propias ni de terceros con fines de análisis o publicidad. '
+                'Las fuentes tipográficas se sirven desde nuestro propio servidor.</p>')
+    usos = []
+    if SITE.get("ga4"):
+        usos.append("Google Analytics, para saber cuántas personas visitan la web, desde dónde llegan (Google, Pinterest, redes sociales…) "
+                    "y cuántas pulsan el botón de reservar en Airbnb")
     if SITE.get("meta_pixel"):
-        return ('<h2>Cookies</h2><p>Si lo aceptas en el aviso de cookies, usamos el Píxel de Meta (Facebook e Instagram) para medir qué anuncios traen visitas '
-                'y cuántas personas pulsan el botón de reservar en Airbnb, y para mostrar anuncios a quien ya visitó la web. Si lo rechazas, no se carga. '
-                'Las fuentes tipográficas se sirven desde nuestro propio servidor.</p>'
-                '<p><button type="button" class="btn btn-sm" data-cookie-settings>Cambiar mis preferencias de cookies</button></p>')
-    return ('<h2>Cookies</h2><p>Esta web no utiliza cookies propias ni de terceros con fines de análisis o publicidad. '
-            'Las fuentes tipográficas se sirven desde nuestro propio servidor.</p>')
+        usos.append("el Píxel de Meta (Facebook e Instagram), para medir qué anuncios traen visitas y mostrar anuncios a quien ya visitó la web")
+    return ('<h2>Cookies</h2><p>Si lo aceptas en el aviso de cookies, usamos ' + " y ".join(usos) + '. '
+            'Los datos son estadísticos y no te identifican. Si lo rechazas, no se carga nada. '
+            'Las fuentes tipográficas se sirven desde nuestro propio servidor.</p>'
+            '<p><button type="button" class="btn btn-sm" data-cookie-settings>Cambiar mis preferencias de cookies</button></p>')
 
 def consent_bar(lang="es"):
-    """Aviso de cookies: solo aparece si hay Píxel de Meta. El píxel no se carga hasta que la persona acepta."""
-    pid = SITE.get("meta_pixel", "")
-    if not pid:
+    """Aviso de cookies: solo aparece si hay medición (Google Analytics o Píxel de Meta). Nada se carga hasta que la persona acepta."""
+    if not tracking_on():
         return ""
     if lang == "en":
-        t = ("We use Meta cookies to measure our ads and show you relevant offers. You can accept or reject them.",
+        t = ("We use cookies to understand how visitors find our site and improve it. You can accept or reject them.",
              "Accept", "Reject", "More info", "privacidad/")
     else:
-        t = ("Usamos cookies de Meta para medir nuestros anuncios y mostrarte ofertas que te interesen. Puedes aceptarlas o rechazarlas.",
+        t = ("Usamos cookies para saber cómo llegan las visitas a la web y mejorarla. Puedes aceptarlas o rechazarlas.",
              "Aceptar", "Rechazar", "Más información", "privacidad/")
-    return (f'<script>window.DLV_PIXEL="{esc(pid)}";</script>'
+    return (f'<script>window.DLV_PIXEL="{esc(SITE.get("meta_pixel", ""))}";window.DLV_GA4="{esc(SITE.get("ga4", ""))}";</script>'
             f'<div class="cookie-bar" id="cookie-bar" hidden role="dialog" aria-label="Cookies">'
             f'<p>{t[0]} <a href="/{t[4]}">{t[3]}</a></p>'
             f'<div class="cookie-btns"><button type="button" class="btn btn-sm cookie-no" data-consent="no">{t[2]}</button>'
@@ -996,8 +1005,8 @@ def page_legal(kind):
 <section class="section"><div class="container"><div class="prose">{content}</div></div></section>"""
     desc = ("Aviso legal de Downtown Life VIP: quién gestiona la web del apartamento frente al mar en Pampatar y cómo funcionan las reservas a través de Airbnb."
             if kind == "aviso-legal" else
-            ("Privacidad y cookies en la web de Downtown Life VIP: qué cookies de Meta usamos si las aceptas y cómo cambiar tu elección. Las reservas las gestiona Airbnb."
-             if SITE.get("meta_pixel") else
+            ("Privacidad y cookies en la web de Downtown Life VIP: qué cookies de medición usamos si las aceptas y cómo cambiar tu elección. Las reservas las gestiona Airbnb."
+             if tracking_on() else
              "Privacidad y cookies en la web de Downtown Life VIP: no recogemos datos personales ni usamos cookies de análisis o publicidad. Las reservas las gestiona Airbnb."))
     return p, layout(p, title, desc, body)
 
