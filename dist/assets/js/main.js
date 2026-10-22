@@ -239,4 +239,12 @@
     if (window.gtag) window.gtag('event', 'click_reservar', { pagina: location.pathname, link_url: a.href, transport_type: 'beacon' });
     if (window.fbq) window.fbq('track', 'Lead', { content_name: 'Reservar en Airbnb', content_category: location.pathname });
   }, true);
+
+  // Clics en "Escríbenos por WhatsApp"
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href*="wa.me/"]');
+    if (!a || !loaded || /[?&]text=/.test(a.href)) return; // los botones de "compartir por WhatsApp" no cuentan
+    if (window.gtag) window.gtag('event', 'click_whatsapp', { pagina: location.pathname, link_url: a.href, transport_type: 'beacon' });
+    if (window.fbq) window.fbq('track', 'Contact', { content_category: location.pathname });
+  }, true);
 })();

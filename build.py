@@ -37,7 +37,7 @@ SITE = {
     "rating": "5,0", "rating_num": 5.0, "reviews": 75, "years": 3,
     # Anuncios y medición (vacíos = desactivado; la web funciona igual sin ellos)
     "meta_pixel": "",           # ID del Píxel de Meta. Desactivado mientras la cuenta de Meta esté inhabilitada (el píxel era 2029927561036295)
-    "ga4": "",                  # ID de medición de Google Analytics 4, ej. "G-ABC123XYZ9"
+    "ga4": "G-FFNQWNHT4G",                  # ID de medición de Google Analytics 4, ej. "G-ABC123XYZ9"
     "google_verification": "",  # código de verificación de Google Search Console (etiqueta HTML, solo el valor de content)
 }
 ROOT = Path(__file__).parent
@@ -210,7 +210,7 @@ def cookies_text():
     usos = []
     if SITE.get("ga4"):
         usos.append("Google Analytics, para saber cuántas personas visitan la web, desde dónde llegan (Google, Pinterest, redes sociales…) "
-                    "y cuántas pulsan el botón de reservar en Airbnb")
+                    "y cuántas pulsan el botón de reservar en Airbnb o el de escribir por WhatsApp")
     if SITE.get("meta_pixel"):
         usos.append("el Píxel de Meta (Facebook e Instagram), para medir qué anuncios traen visitas y mostrar anuncios a quien ya visitó la web")
     return ('<h2>Cookies</h2><p>Si lo aceptas en el aviso de cookies, usamos ' + " y ".join(usos) + '. '
