@@ -188,8 +188,8 @@
 // Nada se carga hasta que la persona pulsa "Aceptar". Cada clic en un botón de Airbnb se mide como
 // "click_reservar" (GA4) y "Lead" (Meta), con la página desde la que se hizo, para saber qué canal convierte.
 (function () {
-  var pid = window.DLV_PIXEL, ga = window.DLV_GA4;
-  if (!pid && !ga) return;
+  var pid = window.DLV_PIXEL, ga = window.DLV_GA4, aw = window.DLV_ADS, awConv = window.DLV_ADS_CONV;
+  if (!pid && !ga && !aw) return;
   var bar = document.getElementById('cookie-bar');
   var KEY = 'dlv-consent';
   function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
@@ -197,14 +197,15 @@
   var loaded = false;
   function load() {
     if (loaded) return; loaded = true;
-    if (ga) {
+    if (ga || aw) {
       var s = document.createElement('script'); s.async = true;
-      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(ga);
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(ga || aw);
       document.head.appendChild(s);
       window.dataLayer = window.dataLayer || [];
       window.gtag = function () { window.dataLayer.push(arguments); };
       window.gtag('js', new Date());
-      window.gtag('config', ga);
+      if (ga) window.gtag('config', ga);
+      if (aw) window.gtag('config', aw);
     }
     if (pid) {
       !function (f, b, e, v, n, t, s) {
@@ -237,6 +238,7 @@
     var a = e.target.closest && e.target.closest('a[href*="airbnb."]');
     if (!a || !loaded) return;
     if (window.gtag) window.gtag('event', 'click_reservar', { pagina: location.pathname, link_url: a.href, transport_type: 'beacon' });
+    if (window.gtag && awConv) window.gtag('event', 'conversion', { send_to: awConv, value: 1.0, currency: 'EUR', transport_type: 'beacon' });
     if (window.fbq) window.fbq('track', 'Lead', { content_name: 'Reservar en Airbnb', content_category: location.pathname });
   }, true);
 
