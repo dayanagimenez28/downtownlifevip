@@ -41,9 +41,7 @@ Antes de comprar, confirma los horarios en la web de Copa, porque en las rutas n
 
 ## Y cuando llegues…
 
-Desde el aeropuerto hasta **Pampatar** hay unos 30–40 minutos en carro. Para mí es el mejor sitio para quedarse: tranquilo, bonito, con su castillo, su playa y sus restaurantes frente al mar, y en el centro de todo para recorrer la isla. Te cuento por qué en [esta guía sobre dónde alojarse en Margarita](../donde-alojarse-en-isla-margarita/).
-
-Ahí te espera [nuestro apartamento frente al mar en Pampatar](../../apartamento/), con balcón al Caribe, piscina y acceso al club de playa. Del avión a la arena en menos de una hora. 🌴
+Desde el aeropuerto hasta **Pampatar** hay unos 30–40 minutos en carro. Es una zona tranquila y bonita, con su castillo, su playa y sus restaurantes frente al mar, y queda en el centro de todo para recorrer la isla. Si aún no sabes dónde quedarte, te dejo [esta guía sobre dónde alojarse en Margarita](../donde-alojarse-en-isla-margarita/).
 
 ¿Vienes desde dentro de Venezuela? Entonces te interesa más [el ferry a Margarita](../ferry-a-margarita/). Y si es tu primera vez en la isla, no te pierdas [mis consejos para viajar a Margarita](../consejos-viajar-isla-margarita/).
 
