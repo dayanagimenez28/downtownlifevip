@@ -45,7 +45,14 @@ Antes de comprar, confirma los horarios en la web de Copa, porque en las rutas n
 
 Desde el aeropuerto hasta **Pampatar** hay unos 30–40 minutos en carro. Es una zona tranquila y bonita, con su castillo, su playa y sus restaurantes frente al mar, y queda en el centro de todo para recorrer la isla. Si aún no sabes dónde quedarte, te dejo [esta guía sobre dónde alojarse en Margarita](../donde-alojarse-en-isla-margarita/).
 
-¿Vienes desde dentro de Venezuela? Entonces te interesa más [el ferry a Margarita](../ferry-a-margarita/). Y si es tu primera vez en la isla, no te pierdas [mis consejos para viajar a Margarita](../consejos-viajar-isla-margarita/).
+## ¿Y si vienes desde dentro de Venezuela?
+
+Para ti no hace falta pasar por Panamá. Tienes dos caminos de toda la vida:
+
+- **En avión:** a Margarita se vuela desde muchísimas ciudades del país. Desde **Caracas** hay varias salidas al día y el vuelo dura menos de una hora. También hay vuelos desde **Valencia, Maracay, Barquisimeto, Maracaibo, Puerto Ordaz, Barcelona, Maturín, Barinas, El Vigía** y algunas ciudades del Táchira. Operan aerolíneas como Conviasa, Avior, Laser, Rutaca, Estelar, Aeropostal y Turpial. Las rutas y frecuencias cambian según la temporada, así que revisa en la web de cada aerolínea cuál te sirve.
+- **En ferry:** desde Puerto La Cruz, Cumaná o La Guaira, ideal si quieres traerte el carro. Te lo explico todo en [esta guía del ferry a Margarita](../ferry-a-margarita/).
+
+Y si es tu primera vez en la isla, no te pierdas [mis consejos para viajar a Margarita](../consejos-viajar-isla-margarita/).
 
 ## Preguntas frecuentes
 
