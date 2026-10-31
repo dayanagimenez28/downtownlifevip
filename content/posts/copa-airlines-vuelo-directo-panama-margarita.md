@@ -9,7 +9,7 @@ date: 2026-10-31
 order: 0
 cover: playa-manzanillo-margarita
 cover_alt: Bahía de Manzanillo con barcas de pescadores, norte de Isla de Margarita
-draft: si
+draft: no
 ---
 
 ¡Qué chévere esta noticia! **A partir del 26 de noviembre de 2026, Copa Airlines vuela directo de Panamá a Porlamar, en Isla de Margarita.** Son tres vuelos por semana, los martes, jueves y domingos, y los boletos ya se pueden comprar en copaair.com.

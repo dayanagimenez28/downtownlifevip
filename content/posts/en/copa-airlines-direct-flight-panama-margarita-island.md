@@ -10,7 +10,7 @@ date: 2026-10-31
 order: 0
 cover: playa-manzanillo-margarita
 cover_alt: Manzanillo bay with fishing boats, north of Margarita Island
-draft: si
+draft: no
 ---
 
 What wonderful news! **Starting November 26, 2026, Copa Airlines flies direct from Panama City to Porlamar, on Margarita Island, Venezuela.** There are three flights a week, on Tuesdays, Thursdays and Sundays, and tickets are already on sale at copaair.com.
