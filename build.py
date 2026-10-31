@@ -227,11 +227,11 @@ def consent_bar(lang="es"):
     if not tracking_on():
         return ""
     if lang == "en":
-        t = ("We use cookies to understand how visitors find our site and improve it. You can accept or reject them.",
-             "Accept", "Reject", "More info", "privacidad/")
+        t = ("🍪 Mind if we use cookies? Only to see how you found us and keep improving the guide.",
+             "Sure", "No, thanks", "More info", "privacidad/")
     else:
-        t = ("Usamos cookies para saber cómo llegan las visitas a la web y mejorarla. Puedes aceptarlas o rechazarlas.",
-             "Aceptar", "Rechazar", "Más información", "privacidad/")
+        t = ("🍪 ¿Nos dejas usar cookies? Solo para saber cómo nos encontraste y seguir mejorando la guía.",
+             "Vale", "No, gracias", "Más info", "privacidad/")
     return (f'<script>window.DLV_PIXEL="{esc(SITE.get("meta_pixel", ""))}";window.DLV_GA4="{esc(SITE.get("ga4", ""))}";window.DLV_ADS="{esc(SITE.get("google_ads", ""))}";window.DLV_ADS_CONV="{esc(SITE.get("ads_conversion", ""))}";</script>'
             f'<div class="cookie-bar" id="cookie-bar" hidden role="dialog" aria-label="Cookies">'
             f'<p>{t[0]} <a href="/{t[4]}">{t[3]}</a></p>'
