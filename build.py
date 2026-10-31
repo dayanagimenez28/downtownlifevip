@@ -446,15 +446,22 @@ GALLERY = [
 def schema_rental():
     return {
         "@context": "https://schema.org", "@type": "VacationRental",
+        "additionalType": "Apartment",
+        "identifier": "downtown-life-vip-pampatar",
         "name": "Downtown Life VIP frente al mar Caribe",
         "description": "Apartamento de 2 dormitorios y 2 baños frente al mar en Pampatar, Isla de Margarita, para hasta 5 viajeros.",
         "url": SITE["url"] + "/apartamento/",
-        "image": [f"{SITE['url']}/fotos/{n}.webp" for n, _ in GALLERY[:6]],
+        "image": [f"{SITE['url']}/fotos/{n}.webp" for n, _ in GALLERY[:12]],
         "address": {"@type": "PostalAddress", "addressLocality": "Pampatar",
                     "addressRegion": "Nueva Esparta", "addressCountry": "VE"},
+        # coordenadas aproximadas de la zona (centro de Pampatar), no la dirección exacta
+        "geo": {"@type": "GeoCoordinates", "latitude": 10.99840, "longitude": -63.79590},
         "aggregateRating": {"@type": "AggregateRating", "ratingValue": SITE["rating_num"], "reviewCount": SITE["reviews"], "bestRating": 5},
         "containsPlace": {"@type": "Accommodation", "additionalType": "EntirePlace", "numberOfBedrooms": 2,
                           "numberOfBathroomsTotal": 2, "occupancy": {"@type": "QuantitativeValue", "value": 5},
+                          "bed": [{"@type": "BedDetails", "numberOfBeds": 1, "typeOfBed": "Double"},
+                                  {"@type": "BedDetails", "numberOfBeds": 2, "typeOfBed": "Single"},
+                                  {"@type": "BedDetails", "numberOfBeds": 1, "typeOfBed": "Sofa bed"}],
                           "amenityFeature": [{"@type": "LocationFeatureSpecification", "name": n, "value": True}
                                              for n in ["Wifi", "Aire acondicionado", "Piscina", "Acceso a la playa", "Aparcamiento gratis", "Lavadora", "Cocina"]]},
         "checkinTime": "16:00", "checkoutTime": "10:00",
@@ -1082,6 +1089,11 @@ def main():
     urls = "".join(f"<url><loc>{SITE['url']}/{pg.path}</loc><lastmod>{today}</lastmod>{img_tags(pg)}</url>" for pg in pages)
     write("sitemap.xml", f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">{urls}</urlset>\n')
     write("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {SITE['url']}/sitemap.xml\n")
+    # caché del navegador para fotos, tipografías y estilos (las visitas que vuelven cargan más rápido)
+    write("_headers", "/fotos/*\n  Cache-Control: public, max-age=2592000\n"
+                      "/assets/fonts/*\n  Cache-Control: public, max-age=31536000, immutable\n"
+                      "/assets/css/*\n  Cache-Control: public, max-age=31536000, immutable\n"
+                      "/assets/js/*\n  Cache-Control: public, max-age=86400\n")
     items = "".join(f"""<item><title>{esc(x['title'])}</title><link>{SITE['url']}/blog/{x['slug']}/</link><guid>{SITE['url']}/blog/{x['slug']}/</guid><pubDate>{format_datetime(datetime.fromisoformat(x['date']).replace(tzinfo=timezone.utc))}</pubDate><description>{esc(x['description'])}</description></item>""" for x in posts)
     write("feed.xml", f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>Guía de Margarita | Downtown Life VIP</title><link>{SITE["url"]}/blog/</link><description>Qué hacer en Isla de Margarita</description><language>es</language>{items}</channel></rss>\n')
     print(f"Listo: {len(pages)} páginas indexables, {len(posts)} artículos en español y {len(posts_en)} en inglés en {OUT}")
