@@ -7,8 +7,8 @@ category: consejos
 keywords: Copa Airlines Margarita, vuelo Panamá Margarita, vuelo directo Panamá Porlamar, Copa Porlamar, vuelos a Isla de Margarita, cómo llegar a Margarita, aeropuerto Santiago Mariño
 date: 2026-10-23
 order: 0
-cover: vista-aerea-costa-isla-margarita
-cover_alt: Vista aérea de la costa de Isla de Margarita con el mar Caribe
+cover: playa-caribe-margarita
+cover_alt: Mar Caribe y palmeras desde la costa norte de Isla de Margarita
 draft: si
 ---
 
