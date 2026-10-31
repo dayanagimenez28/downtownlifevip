@@ -28,7 +28,7 @@ Me emociona pensar en todo lo que puede traer:
 - **Viajeros que descubren la isla por primera vez.** Margarita tiene playas, historia, buena comida y gente cálida. Ya era hora de que más gente pudiera conocerla.
 - **Más movimiento para la isla.** Más turistas significa más vida para los restaurantes, las posadas, los guías y los artesanos de aquí.
 
-![Muelle de la playa de El Yaque, junto al aeropuerto de Margarita](fotos/playa-el-yaque-muelle-margarita.webp)
+![Playa con palapas y mar turquesa en Isla de Margarita](fotos/playa-con-palapas-mar-turquesa-margarita.webp)
 
 ## Horarios del vuelo Copa Panamá–Margarita
 

@@ -29,7 +29,7 @@ Here is what I hope it brings:
 - **Travelers discovering the island for the first time.** Margarita has beaches, history, great food and warm people. It is about time more visitors got to know it.
 - **More life on the island.** More visitors means more business for local restaurants, guesthouses, guides and artisans.
 
-![El Yaque beach pier, right next to Margarita Island's airport](fotos/playa-el-yaque-muelle-margarita.webp)
+![Beach with palm-thatched umbrellas and turquoise sea on Margarita Island](fotos/playa-con-palapas-mar-turquesa-margarita.webp)
 
 ## Copa Panama–Margarita Island flight schedule
 
