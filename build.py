@@ -412,10 +412,11 @@ def breadcrumbs(p, items, lang="es"):
 
 # ---------------------------------------------------------------- datos del apartamento
 REVIEWS = [
+    ("Maria Carolina", "octubre de 2026", "Dayana es una excelente anfitriona, muy atenta y amigable. El inmueble impecable y maravilloso para estar con niños. La zona muy linda, con servicios y entretenimiento bastante cerca. Volvería nuevamente."),
     ("Faine", "septiembre de 2026", "Dayana es una excelente anfitriona, muy atenta a nuestras necesidades. Llegamos tarde y tenía todo previsto para recibirnos. Segunda vez que me hospedo y repetiría sin dudarlo."),
     ("Carlos Guillermo", "julio de 2026", "El lugar está como nuevo y la decoración le da su toque hogareño. Queda en Pampatar, con muchos restaurantes y cosas por hacer en la zona. 100 % recomendable."),
     ("Héctor", "agosto de 2026", "Un apartamento impecable, con unas vistas espectaculares e increíble ubicación. Todo excelente y la atención muy buena."),
-    ("María", "septiembre de 2026", "Pensamos que tal vez las fotos fueran generadas por IA, pero no: el apartamento es exactamente así de bonito. La ubicación es genial, a poca distancia a pie de la playa."),
+    ("María", "septiembre de 2026", "Pensamos que tal vez las fotos fueran generadas por IA, pero no: el apartamento es exactamente así de bonito. Era el cumpleaños de mi suegra y Dayana y su equipo nos ayudaron a sorprenderla con flores, una tarta y una botella de prosecco. La ubicación es genial, a poca distancia a pie de la playa."),
     ("Jesús", "junio de 2026", "Excelente ubicación, apartamento cómodo y seguro. Ideal para toda la familia, tranquilo y con restaurantes y club de playa cerca."),
     ("Rosdey", "junio de 2026", "Todo excelente, el apartamento impecable y las fotos tal cual lo describe. Dayana, increíble trato."),
 ]
