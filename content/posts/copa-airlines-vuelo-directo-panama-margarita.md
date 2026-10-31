@@ -12,7 +12,7 @@ cover_alt: Vista aérea de la costa de Isla de Margarita con el mar Caribe
 draft: si
 ---
 
-¡Qué chévere esta noticia! **A partir del 26 de noviembre de 2026, Copa Airlines vuela directo de Panamá a Isla de Margarita.** Son tres vuelos por semana, los martes, jueves y domingos, y Copa anunció que los boletos ya se pueden comprar en copa.com.
+¡Qué chévere esta noticia! **A partir del 26 de noviembre de 2026, Copa Airlines vuela directo de Panamá a Isla de Margarita.** Son tres vuelos por semana, los martes, jueves y domingos, y Copa anunció que los boletos ya se pueden comprar en copaair.com.
 
 Para la isla esto es mucho más que un vuelo nuevo. Es una puerta abierta al mundo. Durante años, venir a Margarita desde fuera de Venezuela casi siempre significaba pasar por Caracas y después tomar otro avión o el ferry. Ahora, con una sola parada en Panamá, puedes estar en la isla el mismo día desde un montón de ciudades de América.
 
