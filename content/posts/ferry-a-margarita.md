@@ -1,8 +1,8 @@
 ---
 title: Ferry a Margarita: cómo cruzar desde Puerto La Cruz, Cumaná o La Guaira
-seo_title: Ferry a Margarita 2026: precios, horarios y navieras
+seo_title: Ferry a Margarita 2026: precios, horarios y cuánto dura
 slug: ferry-a-margarita
-description: Ferry a Isla de Margarita: desde dónde sale, cuánto dura, precios, cómo comprar el boleto, llevar el carro o tu mascota y consejos para un cruce tranquilo.
+description: Ferry a Margarita desde Puerto La Cruz, Cumaná o La Guaira: precios desde 24 $, cuánto dura el cruce, cómo comprar el boleto y cómo llevar tu carro.
 category: consejos
 keywords: ferry a Margarita, ferry Puerto La Cruz Margarita, ferry La Guaira Margarita, Conferry, Gran Cacique, Navibus, precio ferry Margarita, ferry Margarita con carro, Punta de Piedras
 date: 2026-10-18
