@@ -40,6 +40,7 @@ SITE = {
     "ga4": "G-FFNQWNHT4G",
     "google_ads": "AW-18531354800",                         # etiqueta de Google Ads
     "ads_conversion": "AW-18531354800/nPtACKDYg6YdELCRuIRF",  # conversión de Google Ads: se envía al pulsar "Reservar en Airbnb"                  # ID de medición de Google Analytics 4, ej. "G-ABC123XYZ9"
+    "clarity": "",              # ID del proyecto de Microsoft Clarity (grabaciones anónimas y mapas de calor). Vacío = desactivado
     "google_verification": "",  # código de verificación de Google Search Console (etiqueta HTML, solo el valor de content)
 }
 ROOT = Path(__file__).parent
@@ -203,7 +204,7 @@ def book_url():
     return SITE["airbnb"]
 
 def tracking_on():
-    return bool(SITE.get("meta_pixel") or SITE.get("ga4") or SITE.get("google_ads"))
+    return bool(SITE.get("meta_pixel") or SITE.get("ga4") or SITE.get("google_ads") or SITE.get("clarity"))
 
 def cookies_text():
     if not tracking_on():
@@ -215,6 +216,8 @@ def cookies_text():
                     "y cuántas pulsan el botón de reservar en Airbnb o el de escribir por WhatsApp")
     if SITE.get("google_ads"):
         usos.append("Google Ads, para saber qué anuncios de Google traen visitas que acaban pulsando el botón de reservar")
+    if SITE.get("clarity"):
+        usos.append("Microsoft Clarity, para ver de forma anónima cómo se usa la web (hasta dónde se baja, dónde se pulsa) y así mejorarla")
     if SITE.get("meta_pixel"):
         usos.append("el Píxel de Meta (Facebook e Instagram), para medir qué anuncios traen visitas y mostrar anuncios a quien ya visitó la web")
     return ('<h2>Cookies</h2><p>Si lo aceptas en el aviso de cookies, usamos ' + " y ".join(usos) + '. '
@@ -232,7 +235,7 @@ def consent_bar(lang="es"):
     else:
         t = ("Utilizamos cookies para analizar el tráfico y mejorar tu experiencia.",
              "Aceptar", "Rechazar", "Más información", "privacidad/")
-    return (f'<script>window.DLV_PIXEL="{esc(SITE.get("meta_pixel", ""))}";window.DLV_GA4="{esc(SITE.get("ga4", ""))}";window.DLV_ADS="{esc(SITE.get("google_ads", ""))}";window.DLV_ADS_CONV="{esc(SITE.get("ads_conversion", ""))}";</script>'
+    return (f'<script>window.DLV_PIXEL="{esc(SITE.get("meta_pixel", ""))}";window.DLV_GA4="{esc(SITE.get("ga4", ""))}";window.DLV_ADS="{esc(SITE.get("google_ads", ""))}";window.DLV_ADS_CONV="{esc(SITE.get("ads_conversion", ""))}";window.DLV_CLARITY="{esc(SITE.get("clarity", ""))}";</script>'
             f'<div class="cookie-bar" id="cookie-bar" hidden role="dialog" aria-label="Cookies">'
             f'<p>{t[0]} <a href="/{t[4]}">{t[3]}</a></p>'
             f'<div class="cookie-btns"><button type="button" class="btn btn-sm cookie-no" data-consent="no">{t[2]}</button>'

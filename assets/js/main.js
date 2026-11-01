@@ -188,8 +188,8 @@
 // Nada se carga hasta que la persona pulsa "Aceptar". Cada clic en un botón de Airbnb se mide como
 // "click_reservar" (GA4) y "Lead" (Meta), con la página desde la que se hizo, para saber qué canal convierte.
 (function () {
-  var pid = window.DLV_PIXEL, ga = window.DLV_GA4, aw = window.DLV_ADS, awConv = window.DLV_ADS_CONV;
-  if (!pid && !ga && !aw) return;
+  var pid = window.DLV_PIXEL, ga = window.DLV_GA4, aw = window.DLV_ADS, awConv = window.DLV_ADS_CONV, cl = window.DLV_CLARITY;
+  if (!pid && !ga && !aw && !cl) return;
   var bar = document.getElementById('cookie-bar');
   var KEY = 'dlv-consent';
   function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
@@ -206,6 +206,13 @@
       window.gtag('js', new Date());
       if (ga) window.gtag('config', ga);
       if (aw) window.gtag('config', aw);
+    }
+    if (cl) {
+      (function (c, l, a, r, i, t, y) {
+        c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + encodeURIComponent(i);
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', cl);
     }
     if (pid) {
       !function (f, b, e, v, n, t, s) {
