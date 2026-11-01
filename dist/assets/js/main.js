@@ -213,6 +213,7 @@
         t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + encodeURIComponent(i);
         y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
       })(window, document, 'clarity', 'script', cl);
+      window.clarity('consent');  // solo llegamos aquí si la persona aceptó las cookies
     }
     if (pid) {
       !function (f, b, e, v, n, t, s) {

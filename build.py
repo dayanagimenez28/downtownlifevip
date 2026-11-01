@@ -40,7 +40,7 @@ SITE = {
     "ga4": "G-FFNQWNHT4G",
     "google_ads": "AW-18531354800",                         # etiqueta de Google Ads
     "ads_conversion": "AW-18531354800/nPtACKDYg6YdELCRuIRF",  # conversión de Google Ads: se envía al pulsar "Reservar en Airbnb"                  # ID de medición de Google Analytics 4, ej. "G-ABC123XYZ9"
-    "clarity": "",              # ID del proyecto de Microsoft Clarity (grabaciones anónimas y mapas de calor). Vacío = desactivado
+    "clarity": "z6xvqqrfw7",    # ID del proyecto de Microsoft Clarity (grabaciones anónimas y mapas de calor). Vacío = desactivado
     "google_verification": "",  # código de verificación de Google Search Console (etiqueta HTML, solo el valor de content)
 }
 ROOT = Path(__file__).parent
