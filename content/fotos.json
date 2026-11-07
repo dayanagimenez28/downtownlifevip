@@ -184,5 +184,14 @@
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   },
   "dayana-con-su-mama-margarita": "Dayana con su mamá en Isla de Margarita",
-  "dayana-anfitriona-pampatar": "Dayana, anfitriona de Downtown Life VIP en Pampatar"
+  "dayana-anfitriona-pampatar": "Dayana, anfitriona de Downtown Life VIP en Pampatar",
+  "pareja-atardecer-playa": {
+    "alt": "Pareja de la mano en la orilla de la playa al atardecer",
+    "alt_en": "Couple holding hands on the shoreline at sunset",
+    "credit": "Foto: Igor Rodrigues / Unsplash",
+    "credit_en": "Photo: Igor Rodrigues / Unsplash",
+    "source": "https://unsplash.com/es/fotos/pareja-de-pie-en-el-cuerpo-de-agua-durante-la-hora-dorada-FJ4snEyhhP0",
+    "license": "Licencia Unsplash",
+    "license_url": "https://unsplash.com/license"
+  }
 }

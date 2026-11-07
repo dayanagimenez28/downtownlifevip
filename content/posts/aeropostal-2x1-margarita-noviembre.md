@@ -7,8 +7,8 @@ category: consejos
 keywords: vuelos 2x1 Margarita, Aeropostal 2x1, Aeropostal Margarita noviembre, vuelos baratos a Margarita, Caracas Porlamar, Valencia Porlamar, cómo llegar a Margarita
 date: 2026-11-07
 order: 0
-cover: vista-aerea-costa-isla-margarita
-cover_alt: Vista aérea de la costa de Isla de Margarita con el mar Caribe
+cover: pareja-atardecer-playa
+cover_alt: Pareja de la mano en la orilla de la playa al atardecer
 draft: no
 ---
 
