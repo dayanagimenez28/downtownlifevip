@@ -37,8 +37,17 @@ La Navidad margariteña tiene todo lo bonito de la Navidad venezolana, pero con 
 
 Estos son algunos planes confirmados para esta temporada:
 
-- **Ferias decembrinas en Porlamar y otros municipios**, del 1 de noviembre al 18 de diciembre. Se inauguraron en el terminal de pasajeros de Porlamar y hay ropa, calzado, juguetes, artesanía, pirotecnia y todo lo necesario para las hallacas y el pan de jamón.
-- **La Vitrina Navideña de Pampatar**, el 18 y 19 de diciembre a partir de las 5:00 de la tarde, con entrada libre. Es una feria de creadores y marcas de la isla con artesanía, moda, comida y regalos hechos en Margarita. Ideal para llevarte un recuerdo diferente.
+### Ferias decembrinas, hasta el 18 de diciembre
+
+Son mercados de temporada para hacer las compras de diciembre a buen precio. Forman parte del plan nacional Navidades Felices 2026 y se organizan con la gobernación y las alcaldías de la isla. Arrancaron el 1 de noviembre en el **terminal de pasajeros de Porlamar** y durante siete semanas van rotando por comunidades de seis municipios, con la idea de llevarlas al resto de la isla.
+
+¿Qué vas a encontrar? Más de 40 emprendedores locales con **artesanía, ropa, calzado, juguetes y pirotecnia**, y alimentos de la cesta básica con descuentos de hasta un 30 %. Y, sobre todo, **todo lo que hace falta para las hallacas y el pan de jamón**: hojas de plátano, harina, aceitunas, alcaparras, pasas… Es el sitio donde mucha gente de aquí compra los ingredientes de la mesa navideña.
+
+En la inauguración hubo grupos de gaitas en vivo y actividades para los niños, así que más que hacer mercado, es un plan para pasearse y respirar ambiente navideño. Los lugares y horarios cambian según el día, así que pregunta en la alcaldía o en las redes de tu municipio dónde está la feria esa semana.
+
+### La Vitrina Navideña de Pampatar, 18 y 19 de diciembre
+
+Es una feria de creadores y marcas de la isla que se celebra en Pampatar **a partir de las 5:00 de la tarde, con entrada libre**. Hay artesanía, moda, comida y regalos hechos en Margarita, y la idea es apoyar el talento y el comercio local. Si buscas un regalo diferente o un recuerdo de la isla que no sea el típico llavero, este es tu sitio. Y como cae justo antes de Navidad, es perfecta para cerrar las compras con calma, paseando y comiendo algo rico.
 
 Cada municipio suele anunciar sus parrandas, conciertos y encendidos de luces durante el mes, así que vale la pena estar pendiente de las redes de las alcaldías cuando ya estés en la isla.
 
@@ -89,5 +98,7 @@ No. Hace calor de día y, por las noches, la brisa decembrina refresca. Con un s
 
 - [Reporte Confidencial: ocupación hotelera de más del 90 % en Margarita para diciembre](https://reporteconfidencial.info/2026/11/06/ocupacion-hotelera-isla-de-margarita/){: target="_blank" rel="noopener" }
 - [Radio Mundial: inauguran en Porlamar las ferias decembrinas 2026](https://radiomundial.com.ve/inauguran-en-porlamar-las-ferias-decembrinas-del-plan-navidades-felices-2026/){: target="_blank" rel="noopener" }
+- [Notiespartano: en Nueva Esparta arrancaron las Navidades 2026](https://notiespartano.com/en-nueva-esparta-arrancaron-las-navidades-2026/){: target="_blank" rel="noopener" }
+- [El Sol de Margarita: inicio de las ferias decembrinas en la región insular](https://elsoldemargarita.com.ve/posts/post/id:259139/Ferias-Decembrinas){: target="_blank" rel="noopener" }
 - [Otilca Radio: nueva edición de La Vitrina Navideña en Pampatar](https://radio.otilca.org/pampatar-se-prepara-para-recibir-la-magia-del-talento-local-con-una-nueva-edicion-de-la-vitrina-navidena/){: target="_blank" rel="noopener" }
 - [El Venezolano News: Margarita apuesta por más vuelos, Puerto Libre e inversión](https://elvenezolanonewspaper.com/2026/10/margarita-apuesta-por-un-nuevo-despertar-turistico-con-mas-vuelos-puerto-libre-e-inversion/){: target="_blank" rel="noopener" }
