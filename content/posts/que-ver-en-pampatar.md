@@ -62,7 +62,7 @@ El **Faro Punta Ballena**, inaugurado en 2007, está en un mirador sobre el mar 
 
 ![Playa de Pampatar con palmeras y mar azul](fotos/playa-de-pampatar-isla-margarita.webp)
 
-En la zona tienes varias playas tranquilas a pocos minutos en coche:
+En la zona tienes varias playas tranquilas a pocos minutos en carro:
 
 - **Playa de Pampatar:** frente al casco histórico, con aire de pueblo de pescadores.
 - **Playa Varadero:** a unos 2 km, con toldos, tumbonas y bares cerca. Es más tranquila entre semana.
@@ -92,7 +92,7 @@ En Pampatar está también uno de los centros comerciales más grandes de la isl
 
 - **El centro se recorre a pie.** El castillo, la iglesia y la calle Joaquín Maneiro están muy cerca unos de otros.
 - **Lleva agua, gorra y protector solar.** En el castillo hay poca sombra.
-- **Aparcar** es más fácil por la mañana y entre semana.
+- **Estacionar** es más fácil por la mañana y entre semana.
 - **Ten efectivo** para el mercado de artesanía y los kioscos de la playa.
 
 ## Preguntas frecuentes

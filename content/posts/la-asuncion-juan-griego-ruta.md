@@ -65,7 +65,7 @@ Alrededor de la bahía hay restaurantes sencillos donde se come pescado fresco f
 3. **11:00:** sube al Castillo de Santa Rosa y conoce la celda de Luisa Cáceres.
 4. **13:00:** almuerzo y baño en Guacuco o en Playa Caribe.
 5. **16:00:** llega a Juan Griego y pasea por la bahía.
-6. **17:30:** sube al Fortín de La Galera con tiempo para coger buen sitio.
+6. **17:30:** sube al Fortín de La Galera con tiempo para agarrar buen sitio.
 7. **Atardecer:** disfruta la puesta de sol y cena pescado frente al mar.
 8. **Noche:** vuelta tranquila a Pampatar.
 

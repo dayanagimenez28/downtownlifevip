@@ -68,7 +68,7 @@ Más allá de la zona, hay detalles que hacen que una estancia en Margarita sea 
 
 - **Aire acondicionado** en las habitaciones. En la isla hace calor todo el año.
 - **Agua caliente** y buena presión en la ducha.
-- **Aparcamiento,** si vas a alquilar carro o vienes en ferry con el tuyo.
+- **Estacionamiento,** si vas a alquilar carro o vienes en ferry con el tuyo.
 - **Cercanía a la playa,** para no depender del carro cada vez que quieras darte un baño.
 - **Cocina,** si viajas en familia o te quedas varios días. Ahorras y puedes desayunar tranquilo.
 - **Wifi,** sobre todo si vas a trabajar en remoto.
@@ -83,7 +83,7 @@ Después de tres años recibiendo huéspedes en Pampatar, hay cosas que se repit
 - **Hotel todo incluido:** cómodo si no quieres pensar en nada, aunque te aleja de la vida real de la isla y de su comida.
 - **Apartamento:** más espacio, cocina, lavadora y la libertad de vivir Margarita a tu ritmo. Ideal para familias, grupos y estancias de más de unos días.
 
-Si eliges apartamento, te invito a conocer [nuestro apartamento frente al mar en Pampatar](../../apartamento/): dos dormitorios, balcón al Caribe, piscina, aparcamiento gratis y el club de playa justo enfrente. Lo preparo con todo el cariño para que te sientas en tu casa.
+Si eliges apartamento, te invito a conocer [nuestro apartamento frente al mar en Pampatar](../../apartamento/): dos dormitorios, balcón al Caribe, piscina, estacionamiento gratis y el club de playa justo enfrente. Lo preparo con todo el cariño para que te sientas en tu casa.
 
 ## Cómo elegir según tu viaje
 

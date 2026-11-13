@@ -95,7 +95,7 @@ Para comer, lo más cómodo con niños son:
 - **Los restaurantes a pie de playa,** en Guacuco, Pedro González, Manzanillo o la bahía de Pampatar: los niños juegan en la arena mientras llega la comida.
 - **Las ferias de comida de los centros comerciales,** con aire acondicionado y opciones para todos los gustos.
 - **Los kioscos de playa,** para una merienda de empanadas y un coco frío.
-- **En casa:** el apartamento tiene cocina completa, trona y platos para niños, así que pueden desayunar o cenar tranquilos en el balcón, mirando el mar.
+- **En casa:** el apartamento tiene cocina completa, silla alta para bebés y platos para niños, así que pueden desayunar o cenar tranquilos en el balcón, mirando el mar.
 
 Tienes todos los platos típicos en [qué comer en Isla de Margarita](../que-comer-en-isla-margarita/).
 
@@ -158,7 +158,7 @@ En los terrenos del antiguo parque Diverland se está construyendo **Isla Aventu
 
 Nuestro [apartamento en Pampatar](../../apartamento/) tiene **2 habitaciones, 2 baños y espacio para hasta 5 personas**: cama matrimonial grande, dos camas individuales y un sofá cama en la sala. Para las familias tienes:
 
-- **Trona y platos y cubiertos para niños.**
+- **Silla alta para bebés y platos y cubiertos para niños.**
 - **Libros y juguetes para niños.**
 - **Bañera para bebés**, bajo petición.
 - **Protecciones en las ventanas.**

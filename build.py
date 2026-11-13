@@ -4,7 +4,7 @@
 Uso:
     python3 build.py            -> genera la web lista para subir en ./dist
     python3 build.py --preview  -> genera una versión con enlaces relativos en ./preview
-                                   (para abrir los archivos en el ordenador sin servidor)
+                                   (para abrir los archivos en la computadora sin servidor)
 
 Para publicar un artículo nuevo, crea un archivo .md en content/posts/
 (copia content/posts/_plantilla.md) y vuelve a ejecutar el generador.
@@ -53,6 +53,7 @@ CATEGORIES = {
     "pampatar": "Pampatar",
     "excursiones": "Excursiones",
     "gastronomia": "Gastronomía",
+    "como-llegar": "Cómo llegar",
     "consejos": "Consejos de viaje",
 }
 CATEGORIES_EN = {
@@ -60,6 +61,7 @@ CATEGORIES_EN = {
     "pampatar": "Pampatar",
     "excursiones": "Day trips",
     "gastronomia": "Food",
+    "como-llegar": "Getting there",
     "consejos": "Travel tips",
 }
 MONTHS = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
@@ -184,7 +186,7 @@ def wa_modal(p, lang="es"):
         t = ("Close", "Message us on WhatsApp", "Scan this code with your phone camera and WhatsApp will open so you can message us.",
              "We reply as soon as we can.", "QR code to message Downtown Life VIP on WhatsApp")
     else:
-        t = ("Cerrar", "Escríbenos por WhatsApp", "Escanea este código con la cámara de tu móvil y se abrirá WhatsApp para escribirnos.",
+        t = ("Cerrar", "Escríbenos por WhatsApp", "Escanea este código con la cámara de tu celular y se abrirá WhatsApp para escribirnos.",
              "Te respondemos lo antes posible.", "Código QR para escribir por WhatsApp a Downtown Life VIP")
     return (f'<div class="wa-modal" id="wa-modal" hidden role="dialog" aria-modal="true" aria-labelledby="wa-modal-t">'
             f'<div class="wa-modal-box"><button type="button" class="wa-modal-x" aria-label="{t[0]}">✕</button>'
@@ -334,7 +336,7 @@ def layout(p, title, description, body, active="", schema=None, og_image="fotos/
     <div><h2 class="footer-h">Guía de Margarita</h2><ul>{cat_links}<li><a href="{p.u('en/blog/')}" hreflang="en">Guide in English</a></li></ul></div>
     <div><h2 class="footer-h">Contacto</h2><ul>
       <li><a href="{p.u('contacto/')}">Escríbenos</a></li>{social}
-      <li><a href="{p.u('sobre-dayana/')}">Sobre la anfitriona</a></li>
+      <li><a href="{p.u('sobre-dayana/')}">Sobre mí</a></li>
       <li><a href="{p.u('aviso-legal/')}">Aviso legal</a></li>
       <li><a href="{p.u('privacidad/')}">Privacidad y cookies</a></li>
     </ul></div>"""
@@ -419,18 +421,18 @@ REVIEWS = [
     ("Faine", "septiembre de 2026", "Dayana es una excelente anfitriona, muy atenta a nuestras necesidades. Llegamos tarde y tenía todo previsto para recibirnos. Segunda vez que me hospedo y repetiría sin dudarlo."),
     ("Carlos Guillermo", "julio de 2026", "El lugar está como nuevo y la decoración le da su toque hogareño. Queda en Pampatar, con muchos restaurantes y cosas por hacer en la zona. 100 % recomendable."),
     ("Héctor", "agosto de 2026", "Un apartamento impecable, con unas vistas espectaculares e increíble ubicación. Todo excelente y la atención muy buena."),
-    ("María", "septiembre de 2026", "Pensamos que tal vez las fotos fueran generadas por IA, pero no: el apartamento es exactamente así de bonito. Era el cumpleaños de mi suegra y Dayana y su equipo nos ayudaron a sorprenderla con flores, una tarta y una botella de prosecco. La ubicación es genial, a poca distancia a pie de la playa."),
+    ("María", "septiembre de 2026", "Pensamos que tal vez las fotos fueran generadas por IA, pero no: el apartamento es exactamente así de bonito. Era el cumpleaños de mi suegra y Dayana y su equipo nos ayudaron a sorprenderla con flores, una torta y una botella de prosecco. La ubicación es genial, a poca distancia a pie de la playa."),
     ("Jesús", "junio de 2026", "Excelente ubicación, apartamento cómodo y seguro. Ideal para toda la familia, tranquilo y con restaurantes y club de playa cerca."),
     ("Rosdey", "junio de 2026", "Todo excelente, el apartamento impecable y las fotos tal cual lo describe. Dayana, increíble trato."),
 ]
 AMENITIES = [
-    ("Cocina y comedor", ["Cocina completa", "Nevera Whirlpool y congelador", "Fogones eléctricos Whirlpool de 4 hornillas", "Horno y microondas", "Cafetera de filtro y café", "Batidora y tostadora", "Bandeja de repostería", "Copas de vino", "Platos, boles, tazas y cubiertos", "Cazuelas, sartenes, aceite, sal y pimienta", "Comedor al aire libre", "Barbacoa"]),
+    ("Cocina y comedor", ["Cocina completa", "Nevera Whirlpool y congelador", "Cocina eléctrica Whirlpool de 4 hornillas", "Horno y microondas", "Cafetera de filtro y café", "Batidora y tostadora", "Bandeja de repostería", "Copas de vino", "Platos, boles, tazas y cubiertos", "Cazuelas, sartenes, aceite, sal y pimienta", "Comedor al aire libre", "Barbacoa"]),
     ("Dormitorios y lavandería", ["Ropa de cama de algodón egipcio", "Almohadas y mantas adicionales", "Cortinas o persianas opacas", "Vestidor y perchas", "Plancha", "Lavadora en el apartamento", "Secadora en el apartamento", "Tendedero para ropa", "Lavandería cercana"]),
     ("Baño", ["Agua caliente", "Champú y acondicionador", "Gel de ducha", "Secador de pelo", "Toallas, sábanas, jabón y papel higiénico", "Productos de limpieza", "Ducha exterior"]),
     ("Ocio, trabajo y clima", ["Wifi", "TV HD con Netflix, Prime Video y Disney+", "Zona de trabajo privada con silla ergonómica", "Soporte para portátil y protector de sobretensiones", "Libros y material de lectura", "Juegos de mesa", "Aire acondicionado tipo split"]),
     ("Playa y exteriores", ["Junto al agua", "Acceso a la playa", "Básicos de playa: toallas, sillas y sombrilla", "Balcón privado", "Mobiliario exterior", "Tumbonas", "Piscina compartida (6:00–22:00)", "Jacuzzi compartido (6:00–22:00)", "Acceso al resort (con importe adicional)", "Gimnasio en la zona"]),
-    ("Familias", ["Parque infantil al aire libre", "Libros y juguetes para niños", "Trona", "Platos y cubiertos para niños", "Bañera para bebés (bajo petición)", "Protecciones en las ventanas", "Recomendaciones de canguros"]),
-    ("Llegada y edificio", ["Entrada privada", "Ascensor", "Alojamiento de una sola planta", "Aparcamiento gratis en cochera (1 plaza)", "Aparcamiento gratuito en la calle", "Se permite dejar el equipaje", "Disponible para estancias largas (28 días o más)"]),
+    ("Familias", ["Parque infantil al aire libre", "Libros y juguetes para niños", "Silla alta para bebés", "Platos y cubiertos para niños", "Bañera para bebés (bajo petición)", "Protecciones en las ventanas", "Recomendaciones de niñeras"]),
+    ("Llegada y edificio", ["Entrada privada", "Ascensor", "Alojamiento de una sola planta", "Estacionamiento gratis en cochera (1 puesto)", "Estacionamiento gratuito en la calle", "Se permite dejar el equipaje", "Disponible para estancias largas (28 días o más)"]),
     ("Seguridad", ["Detector de humo", "Detector de monóxido de carbono", "Extintor de incendios", "Botiquín", "Cámara de seguridad en los exteriores"]),
 ]
 GALLERY = [
@@ -467,7 +469,7 @@ def schema_rental():
                                   {"@type": "BedDetails", "numberOfBeds": 2, "typeOfBed": "Single"},
                                   {"@type": "BedDetails", "numberOfBeds": 1, "typeOfBed": "Sofa bed"}],
                           "amenityFeature": [{"@type": "LocationFeatureSpecification", "name": n, "value": True}
-                                             for n in ["Wifi", "Aire acondicionado", "Piscina", "Acceso a la playa", "Aparcamiento gratis", "Lavadora", "Cocina"]]},
+                                             for n in ["Wifi", "Aire acondicionado", "Piscina", "Acceso a la playa", "Estacionamiento gratis", "Lavadora", "Cocina"]]},
         "checkinTime": "16:00", "checkoutTime": "10:00",
     }
 
@@ -476,7 +478,7 @@ FAQ = [
     ("¿A qué hora es la llegada y la salida?", "La llegada es a partir de las 16:00 y la salida antes de las 10:00. Si llegas antes o te vas más tarde, puedes dejar tu equipaje."),
     ("¿Cuántas personas pueden alojarse?", "Hasta 5 viajeros: una cama de matrimonio grande en el dormitorio principal, dos camas individuales en el segundo dormitorio y un sofá cama en el salón."),
     ("¿Está cerca de la playa?", "Sí. El apartamento está frente al mar, justo enfrente del club de playa Downtownbeach Margarita, y tiene acceso a la playa."),
-    ("¿Hay aparcamiento?", "Sí, una plaza gratis en la cochera del edificio y aparcamiento gratuito en la calle."),
+    ("¿Hay estacionamiento?", "Sí, un puesto gratis en la cochera del edificio y estacionamiento gratuito en la calle."),
     ("¿Se puede teletrabajar?", "Sí. Hay wifi y una zona de trabajo privada con silla ergonómica, soporte para portátil y protector de sobretensiones."),
     ("¿Hay descuentos por estancias largas?", "Sí: 10 % de descuento semanal y 10 % mensual. Aceptamos estancias de 3 a 60 noches."),
     ("¿Se puede fumar?", "No. El apartamento es un espacio libre de humo, también en los balcones."),
@@ -537,7 +539,7 @@ def post_card(p, post):
     return f"""<a class="post-card" href="{p.u(prefix + post['slug'] + '/')}"{' lang="en"' if en and p.path[:3] != 'en/' else ''}>
   {img(p, post['cover'], post.get('cover_alt'), sizes="(max-width: 600px) 100vw, 33vw", lang=post.get('lang', 'es'))}
   <div class="body">
-    <div class="meta"><span class="cat">{cat_label(post['category'], post.get('lang', 'es'))}</span><span>{post['minutes']} {'min read' if en else 'min de lectura'}</span></div>
+    <div class="meta"><span class="cat">{cat_label(post['category'], post.get('lang', 'es'))}</span><time datetime="{post['date']}">{fdate(post['date'], post.get('lang', 'es'))}</time><span>{post['minutes']} {'min read' if en else 'min de lectura'}</span></div>
     <h3>{esc(post['title'])}</h3>
     <p>{esc(post['description'])}</p>
     <span class="more">{'Read article' if en else 'Leer artículo'} →</span>
@@ -568,10 +570,10 @@ def page_home(posts):
     facts = "".join(f'<li>{icon(i)}<div><strong>{a}</strong><span>{b}</span></div></li>' for i, a, b in [
         ("users", "5 viajeros", "Ideal para familias"), ("bed", "2 dormitorios", "4 camas"), ("bath", "2 baños", "Completos"), ("waves", "Frente al mar", "Acceso a la playa")])
     features = "".join(f'<div class="feature">{icon(i)}<h3>{a}</h3><p>{b}</p></div>' for i, a, b in [
-        ("sun", "Balcón con vista al mar", "Desayuna frente al Caribe"), ("pool", "Piscina y jacuzzi", "Abiertos todo el año, de 6:00 a 22:00"),
+        ("sun", "Balcón con vista al mar", "Desayuna frente al Caribe"), ("pool", "Piscina y jacuzzi", "Compartidos, abiertos todo el año de 6:00 a 22:00"),
         ("snow", "Aire acondicionado", "Sistema split en el apartamento"), ("wifi", "Wifi y zona de trabajo", "Silla ergonómica y soporte para portátil"),
         ("kitchen", "Cocina completa", "Electrodomésticos Whirlpool"), ("washer", "Lavadora y secadora", "Dentro del apartamento"),
-        ("car", "Aparcamiento gratis", "Una plaza en la cochera"), ("shield", "Edificio seguro", "Ascensor y entrada privada")])
+        ("car", "Estacionamiento gratis", "Un puesto en la cochera"), ("shield", "Edificio seguro", "Ascensor y entrada privada")])
     reviews = "".join(f"""<article class="review"><div class="stars" aria-label="5 de 5 estrellas">{icon('star')*5}</div>
 <blockquote>“{esc(t)}”</blockquote><footer><span class="avatar" aria-hidden="true">{n[0]}</span><div><strong>{esc(n)}</strong>{d}</div></footer></article>""" for n, d, t in REVIEWS[:3])
     latest = "".join(post_card(p, x) for x in posts[:3])
@@ -625,8 +627,8 @@ def page_home(posts):
 """
     site_schema = {"@context": "https://schema.org", "@type": "WebSite", "name": SITE["name"], "url": SITE["url"] + "/", "inLanguage": "es"}
     return p, layout(p, "Apartamento frente al mar en Pampatar | Downtown Life VIP",
-                     "Apartamento de 2 dormitorios frente al mar en Pampatar, Isla de Margarita. Balcón al Caribe, piscina, wifi y aparcamiento. Superanfitriona con 5,0 en Airbnb.",
-                     body, active="", schema=[site_schema, schema_rental()])
+                     "Apartamento de 2 dormitorios frente al mar en Pampatar, Isla de Margarita. Balcón al Caribe, piscina compartida, wifi y estacionamiento gratis. Superanfitriona con 5,0 en Airbnb.",
+                     body, active="", schema=[site_schema, schema_rental()], og_alt="Balcón del apartamento con desayuno y vista al mar Caribe en Pampatar")
 
 def review_cards(items):
     return "".join(f"""<article class="review"><div class="stars" aria-label="5 de 5 estrellas">{icon('star')*5}</div>
@@ -758,7 +760,7 @@ def page_apartment():
 <section class="cta-band"><div class="container"><div><h2>Reserva tu estancia en Pampatar</h2><p>Consulta las fechas libres y el precio final en Airbnb.</p></div><a class="btn btn-sun" href="{book_url()}" target="_blank" rel="noopener">Reservar en Airbnb</a></div></section>
 """
     return p, layout(p, "Fotos, comodidades y normas del apartamento",
-                     "Apartamento entero frente al mar en Pampatar: 2 dormitorios, 4 camas, 2 baños, balcón con vista al Caribe, piscina, jacuzzi, wifi y aparcamiento gratis.",
+                     "Apartamento entero frente al mar en Pampatar: 2 dormitorios, 4 camas, 2 baños, balcón con vista al Caribe, piscina y jacuzzi compartidos, wifi y estacionamiento gratis.",
                      body, active="apartamento/", schema=[schema_rental(), faq_schema, bc_schema])
 
 def page_about():
@@ -837,9 +839,9 @@ def page_blog(posts, cat=None):
     catnav = f'<a href="{p.u("blog/")}"{" aria-current=\"page\"" if not cat else ""}>Todos</a>' + "".join(
         f'<a href="{p.u("blog/categoria/" + k + "/")}"{" aria-current=\"page\"" if cat == k else ""}>{v}</a>'
         for k, v in CATEGORIES.items() if any(x["category"] == k for x in posts))
-    title = "Guía de Margarita: qué hacer en la isla" if not cat else f"{CATEGORIES[cat]} en Isla de Margarita"
-    intro = ("Playas, historia, excursiones, gastronomía y consejos prácticos para tu viaje a Isla de Margarita, escritos por la anfitriona de Downtown Life VIP en Pampatar."
-             if not cat else f"Artículos sobre {CATEGORIES[cat].lower()} en Isla de Margarita: recomendaciones y consejos para tu viaje.")
+    title = "Guía de Margarita: qué hacer en la isla" if not cat else ("Cómo llegar a Isla de Margarita" if cat == "como-llegar" else f"{CATEGORIES[cat]} en Isla de Margarita")
+    intro = ("Playas, excursiones, gastronomía, cómo llegar y consejos prácticos para tu viaje a Isla de Margarita, de la mano de una anfitriona en Pampatar."
+             if not cat else ("Cómo llegar a Isla de Margarita en avión o en ferry: vuelos, rutas, ofertas y consejos para organizar tu viaje." if cat == "como-llegar" else f"Artículos sobre {CATEGORIES[cat].lower()} en Isla de Margarita: recomendaciones y consejos para tu viaje."))
     cards = "".join(post_card(p, x) for x in chosen) or "<p>Pronto publicaremos artículos en esta categoría.</p>"
     body = f"""
 <section class="page-hero"><div class="container">{bc}<h1>{esc(title)}</h1><p>{esc(intro)}</p>{'' if cat else '<a class="lang-pill" href="' + p.u('en/blog/') + '" hreflang="en" lang="en">Read the guide in English →</a>'}</div></section>
@@ -868,7 +870,7 @@ def page_post(post, posts, pair=None):
         "min": "min read" if en else "min de lectura",
         "by": f"By {SITE['host']}, your host in Pampatar" if en else f"Por {SITE['host']}, anfitriona en Pampatar",
         "cta_t": "Looking for a place to stay in Pampatar?" if en else "¿Buscas dónde quedarte en Pampatar?",
-        "cta_p": f"Beachfront apartment with pool and free parking. ★ {SITE['rating'].replace(',', '.')} on Airbnb." if en else f"Apartamento frente al mar, con piscina y aparcamiento. ★ {SITE['rating']} en Airbnb.",
+        "cta_p": f"Beachfront apartment with pool and free parking. ★ {SITE['rating'].replace(',', '.')} on Airbnb." if en else f"Apartamento frente al mar, con piscina y estacionamiento. ★ {SITE['rating']} en Airbnb.",
         "cta_b": "Check availability" if en else "Ver disponibilidad",
         "author": (f"<strong>{SITE['host']}</strong> is the host of Downtown Life VIP in Pampatar and an Airbnb Superhost with {SITE['reviews']} five-star reviews. In this guide she shares what she recommends to her guests."
                    if en else f"<strong>{SITE['host']}</strong> es la anfitriona de Downtown Life VIP en Pampatar y Superanfitriona en Airbnb con {SITE['reviews']} evaluaciones de 5 estrellas. En esta guía comparte lo que recomienda a sus huéspedes."),

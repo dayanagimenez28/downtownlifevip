@@ -3,7 +3,7 @@ title: "¡Margarita se conecta con el mundo! Copa Airlines vuela directo desde P
 seo_title: Vuelo Copa Panamá–Porlamar (Margarita): horarios y precios
 slug: copa-airlines-vuelo-directo-panama-margarita
 description: Copa vuela directo de Panamá a Porlamar, Isla de Margarita, desde el 26 de noviembre de 2026: días, horarios, precios, cuánto dura y cómo llegar a Pampatar.
-category: consejos
+category: como-llegar
 keywords: Copa Airlines Margarita, vuelo Panamá Margarita, vuelo Panamá Porlamar, vuelo directo Panamá Porlamar, Copa Porlamar, precio vuelo Panamá Margarita, horario vuelo Copa Margarita, vuelos a Isla de Margarita, cómo llegar a Margarita, aeropuerto Santiago Mariño
 date: 2026-10-31
 order: 0

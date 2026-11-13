@@ -14,11 +14,11 @@ cover_alt: Tumbonas y sombrillas bajo las palmeras en Playa El Agua, Isla de Mar
 
 Las mejores playas de Isla de Margarita están repartidas por toda la isla, y cada una sirve para un plan distinto: **Playa El Agua** para un día largo con ambiente, **Parguito** para surfear, **Guacuco** para ir en familia, **El Yaque** para el windsurf y el kitesurf, **Playa Caribe** para la tarde, y **Punta Arenas** o **Manzanillo** para quien busca calma y pescado recién sacado del mar.
 
-Margarita es pequeña: se cruza en coche en menos de una hora, así que puedes probar una playa distinta cada día. En esta guía tienes lo que ofrece cada una, para quién es y cuánto se tarda en llegar desde Pampatar, donde está [nuestro apartamento frente al mar](../../apartamento/).
+Margarita es pequeña: se cruza en carro en menos de una hora, así que puedes probar una playa distinta cada día. En esta guía tienes lo que ofrece cada una, para quién es y cuánto se tarda en llegar desde Pampatar, donde está [nuestro apartamento frente al mar](../../apartamento/).
 
 ## Las playas de Margarita de un vistazo
 
-Los tiempos son aproximados, en coche desde Pampatar y sin tráfico.
+Los tiempos son aproximados, en carro desde Pampatar y sin tráfico.
 
 | Playa | Zona | Cómo es el mar | Ideal para | Desde Pampatar |
 |---|---|---|---|---|
@@ -30,7 +30,7 @@ Los tiempos son aproximados, en coche desde Pampatar y sin tráfico.
 | El Yaque | Sur, junto al aeropuerto | Poco profundo, mucho viento | Windsurf y kitesurf | 35–40 min |
 | Punta Arenas | Península de Macanao | Calmado | Un día de desconexión | 1 h 15 min |
 | La Restinga | Parque nacional | Calmado | Paseo en lancha y playa | 45 min + lancha |
-| Playas de Pampatar | Bahía de Pampatar | Muy tranquilo | Bañarse sin coger el coche | 0–10 min |
+| Playas de Pampatar | Bahía de Pampatar | Muy tranquilo | Bañarse sin agarrar el carro | 0–10 min |
 
 ## Playa El Agua, la más famosa de la isla
 
@@ -48,7 +48,7 @@ El mar de El Agua es abierto y **el oleaje a veces es fuerte**. Fíjate en las b
 
 ![Playa Parguito con olas y palmeras](fotos/playa-parguito-margarita.webp)
 
-Parguito está pegada a Playa El Agua, a pocos minutos en coche. Es la playa del surf en Margarita: tiene olas casi todo el año y un ambiente joven y relajado. Aunque no surfees, merece la pena por su ambiente y sus kioscos de comida de playa, como las empanadas y el coco frío.
+Parguito está pegada a Playa El Agua, a pocos minutos en carro. Es la playa del surf en Margarita: tiene olas casi todo el año y un ambiente joven y relajado. Aunque no surfees, merece la pena por su ambiente y sus kioscos de comida de playa, como las empanadas y el coco frío.
 
 - **Ideal para:** surfistas, grupos de amigos y quien quiere un ambiente más informal que El Agua.
 - **Ten en cuenta:** con las olas, no es la mejor opción para niños que aún no nadan bien.
@@ -108,7 +108,7 @@ En el Parque Nacional Laguna de La Restinga, una lancha te lleva por los túnele
 
 ![Vista aérea de la playa de Pampatar y el mar Caribe](fotos/vista-aerea-playa-pampatar-isla-margarita.webp)
 
-No todo tiene que ser coger el coche. En la bahía de Pampatar el agua es tranquila y hay varias playas a pocos minutos:
+No todo tiene que ser agarrar el carro. En la bahía de Pampatar el agua es tranquila y hay varias playas a pocos minutos:
 
 - **Playa de Pampatar:** frente al casco histórico y al castillo, con aire de pueblo de pescadores.
 - **Playa Varadero y Playa El Ángel:** a unos 2 km, con toldos, tumbonas y kioscos de comida. Entre semana están mucho más tranquilas.
@@ -153,8 +153,8 @@ En El Yaque, al sur de la isla y junto al aeropuerto. Tiene viento constante, ag
 
 ### ¿Hay playas cerca de Pampatar?
 
-Sí. En la bahía de Pampatar están la playa del casco histórico, Playa Varadero, Playa El Ángel y Playa Concorde, todas a menos de 10 minutos. Guacuco está a unos 20 minutos en coche.
+Sí. En la bahía de Pampatar están la playa del casco histórico, Playa Varadero, Playa El Ángel y Playa Concorde, todas a menos de 10 minutos. Guacuco está a unos 20 minutos en carro.
 
 ### ¿Cuánto se tarda en llegar a Playa El Agua desde Pampatar?
 
-Unos 25 a 30 minutos en coche, sin tráfico.
+Unos 25 a 30 minutos en carro, sin tráfico.

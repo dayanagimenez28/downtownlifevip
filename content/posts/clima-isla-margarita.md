@@ -70,7 +70,7 @@ Es una de las preguntas que más me hacen. Margarita está al sur de la ruta hab
 - **Bañador,** mejor dos para ir alternando.
 - **Una chaqueta fina o un suéter** para el aire acondicionado de restaurantes, centros comerciales y aviones.
 - **Sandalias y unas zapatillas cómodas** para caminar por los castillos y pueblos.
-- **Gorra o sombrero y gafas de sol.**
+- **Gorra o sombrero y lentes de sol.**
 - **Un chubasquero ligero** si viajas entre agosto y diciembre, por si te pilla algún chaparrón.
 
 ## Consejos para el sol y el calor

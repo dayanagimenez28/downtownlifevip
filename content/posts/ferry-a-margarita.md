@@ -3,7 +3,7 @@ title: Ferry a Margarita: cómo cruzar desde Puerto La Cruz, Cumaná o La Guaira
 seo_title: Ferry Puerto La Cruz–Margarita 2026: precios y cuánto dura
 slug: ferry-a-margarita
 description: Precios del ferry a Margarita desde 24 $, cuánto dura el cruce y cómo comprar el boleto. Salidas desde Puerto La Cruz, Cumaná y La Guaira, con o sin carro.
-category: consejos
+category: como-llegar
 keywords: ferry a Margarita, ferry Puerto La Cruz Margarita, ferry La Guaira Margarita, Conferry, Gran Cacique, Navibus, precio ferry Margarita, ferry Margarita con carro, Punta de Piedras
 date: 2026-10-18
 order: 10
@@ -60,7 +60,7 @@ Llevar el carro a Margarita es muy buena idea, porque la isla se recorre mucho m
 - **Lleva los documentos del vehículo** en regla y tu documento de identidad.
 - **Llega con bastante antelación** al muelle: el embarque de vehículos empieza antes que el de pasajeros. Confirma con tu naviera cuánto tiempo antes te piden estar.
 
-Si no vienes en carro, no pasa nada. En la isla puedes alquilar uno o moverte en taxi. En el apartamento tienes una plaza de aparcamiento gratis.
+Si no vienes en carro, no pasa nada. En la isla puedes alquilar uno o moverte en taxi. En el apartamento tienes un puesto de estacionamiento gratis.
 
 ## Viajar con tu mascota
 
@@ -97,10 +97,10 @@ Si vienes en familia y piensas quedarte una semana o más, el ferry con tu carro
 
 ## Qué llevar en la mochila para el cruce
 
-- Tu documento de identidad y el boleto, impreso o en el móvil.
+- Tu documento de identidad y el boleto, impreso o en el celular.
 - Una chaqueta fina o un suéter.
 - Agua, frutos secos o algo de picar.
-- Cargador o batería externa para el móvil.
+- Cargador o batería externa para el celular.
 - Pastillas para el mareo, si las necesitas.
 - Gafas de sol, por si sales a cubierta.
 - Algo para entretenerte: un libro, música o una película descargada, porque la señal en alta mar no siempre es buena.

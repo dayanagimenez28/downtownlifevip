@@ -61,7 +61,7 @@ A Cubagua no hay transporte regular. La forma de ir es con una **excursión en b
 ### Qué llevar a Cubagua
 
 - **Mucha agua y algo de comer:** en la isla casi no hay servicios.
-- **Protector solar, gorra y gafas de sol:** hay muy poca sombra.
+- **Protector solar, gorra y lentes de sol:** hay muy poca sombra.
 - **Calzado cómodo** para caminar entre las ruinas.
 - **Efectivo,** por si quieres comprar algo a los pescadores.
 
@@ -80,7 +80,7 @@ Si solo tienes un día y quieres playa, elige **Coche**. Si te atrae la historia
 ## Consejos para cualquier excursión en barco
 
 - **Sal temprano.** El mar suele estar más tranquilo por la mañana.
-- **Lleva una funda estanca para el móvil.** En las lanchas siempre salpica un poco.
+- **Lleva una funda impermeable para el celular.** En las lanchas siempre salpica un poco.
 - **Si te mareas,** siéntate en la parte de atrás de la lancha y mira al horizonte.
 - **Lleva dólares en billetes pequeños** para pagar bebidas, propinas y extras.
 - **Ponte el protector antes de salir.** En el mar el sol quema el doble.

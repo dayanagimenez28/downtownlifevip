@@ -12,7 +12,7 @@ cover: manglares-laguna-la-restinga
 cover_alt: Túnel de manglares en el Parque Nacional Laguna de La Restinga
 ---
 
-El paseo en lancha por la **Laguna de La Restinga** es la excursión más bonita de Isla de Margarita: una barca de madera te lleva durante casi una hora por canales y túneles de manglar, entre pelícanos, garzas y ostras pegadas a las raíces, hasta una playa larguísima donde te bañas y comes pescado frito. Está a unos 45 minutos en coche desde Pampatar y se puede hacer con niños y con abuelos.
+El paseo en lancha por la **Laguna de La Restinga** es la excursión más bonita de Isla de Margarita: una barca de madera te lleva durante casi una hora por canales y túneles de manglar, entre pelícanos, garzas y ostras pegadas a las raíces, hasta una playa larguísima donde te bañas y comes pescado frito. Está a unos 45 minutos en carro desde Pampatar y se puede hacer con niños y con abuelos.
 
 Como margariteña, La Restinga es uno de esos lugares que siempre recomiendo a quien visita la isla por primera vez. Tiene algo que no tienen las playas famosas: silencio. El motor de la lancha baja de velocidad al entrar en los manglares, la luz se vuelve verde y solo se oyen los pájaros y el agua. Es la Margarita más natural, la que no sale en las postales de hoteles.
 
@@ -28,7 +28,7 @@ La laguna está separada del mar por una **barra de arena de más de 20 kilómet
 
 El embarcadero del parque está en la carretera que va de Porlamar hacia Punta de Piedras y Macanao, en el municipio Tubores. Está bien señalizado.
 
-- **En coche desde Pampatar:** unos 45 minutos. Es la forma más cómoda, y hay aparcamiento junto al embarcadero.
+- **En carro desde Pampatar:** unos 45 minutos. Es la forma más cómoda, y hay estacionamiento junto al embarcadero.
 - **En taxi:** pacta el precio de ida y vuelta antes de salir, y la hora a la que te recoge.
 - **En transporte público:** hay "por puestos" (minibuses compartidos) desde Porlamar hacia Punta de Piedras. Es más barato pero más lento.
 
@@ -64,11 +64,11 @@ La lancha termina en la barra de arena, una playa enorme de arena y conchas con 
 
 ## Qué llevar
 
-- **Protector solar, gorra y gafas de sol.** En la lancha no hay sombra en todo el recorrido.
+- **Protector solar, gorra y lentes de sol.** En la lancha no hay sombra en todo el recorrido.
 - **Agua** para el camino.
 - **Efectivo** para la lancha, la comida y las ostras.
 - **Bañador y toalla.** En el apartamento tienes toallas de playa.
-- **Una funda estanca para el móvil**, por si salpica el agua.
+- **Una funda impermeable para el celular**, por si salpica el agua.
 - **Repelente** si vas a última hora de la tarde.
 
 ## Consejos para disfrutar más
@@ -96,7 +96,7 @@ Lleva gorras, mucha agua y protector solar para todos, porque en la lancha no ha
 
 ## Consejos para hacer buenas fotos
 
-- **En los túneles** la luz es baja: sujeta bien el móvil y pide al lanchero que pare un momento.
+- **En los túneles** la luz es baja: sujeta bien el celular y pide al lanchero que pare un momento.
 - **Las raíces del manglar reflejadas** en el agua quieta dan fotos preciosas, sobre todo por la mañana.
 - **En la playa,** la barra de arena con el mar abierto a un lado y la laguna al otro es una imagen muy especial.
 
@@ -125,7 +125,7 @@ Se paga por lancha, no por persona, y cada barca lleva a un grupo de unas 6 a 8 
 
 ### ¿Cómo llegar a La Restinga desde Pampatar?
 
-En coche son unos 45 minutos por la carretera hacia Punta de Piedras y Macanao. El embarcadero está señalizado y tiene aparcamiento.
+En carro son unos 45 minutos por la carretera hacia Punta de Piedras y Macanao. El embarcadero está señalizado y tiene estacionamiento.
 
 ### ¿Se puede ir a La Restinga con niños?
 

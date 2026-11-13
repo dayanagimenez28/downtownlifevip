@@ -45,7 +45,7 @@ Eso no quiere decir que no haya delincuencia. Como en cualquier destino, hay rob
 
 - **Lleva solo el efectivo del día** y deja el resto en el alojamiento.
 - **Usa billetes pequeños** para no tener que sacar fajos de dinero al pagar.
-- **No presumas de joyas, relojes caros o móviles de alta gama** en zonas poco turísticas.
+- **No presumas de joyas, relojes caros o celulares de alta gama** en zonas poco turísticas.
 - **No dejes tus cosas solas en la playa** mientras te bañas. Si vas en grupo, que alguien se quede cuidándolas.
 
 ### De noche
@@ -67,7 +67,7 @@ Este punto es muy importante y a veces se olvida:
 
 ## Otras cosas prácticas que conviene saber
 
-- **Pueden producirse cortes de luz.** Suelen ser puntuales, pero lleva una batería externa para el móvil.
+- **Pueden producirse cortes de luz.** Suelen ser puntuales, pero lleva una batería externa para el celular.
 - **Los pagos se hacen sobre todo en dólares en efectivo.** No hay cajeros que den dólares, así que lleva el efectivo que necesites. Te lo explico en [mis consejos para viajar a Margarita](../consejos-viajar-isla-margarita/).
 - **Los terremotos del 24 de junio de 2026** afectaron sobre todo a la zona central del país, cerca de Caracas. Según el gobierno regional, en Margarita no hubo víctimas ni daños materiales, y el aeropuerto de Maiquetía volvió a operar parcialmente en septiembre. Si vuelas con escala en Caracas, confirma el estado de tu vuelo con la aerolínea.
 - **Para entrar en Venezuela** necesitas pasaporte con al menos seis meses de validez, y te pueden pedir billete de vuelta y la reserva del alojamiento. Revisa los requisitos para tu nacionalidad antes de viajar.
@@ -76,10 +76,10 @@ Este punto es muy importante y a veces se olvida:
 
 - **Lee las opiniones recientes** de otros huéspedes. Son la mejor pista de cómo es la zona y el sitio.
 - **Elige una zona tranquila y con ambiente,** como Pampatar. Te lo cuento en [dónde alojarse en Margarita](../donde-alojarse-en-isla-margarita/).
-- **Fíjate en los detalles de seguridad:** entrada privada, edificio con acceso controlado, aparcamiento propio y caja fuerte o un lugar seguro para tus cosas.
+- **Fíjate en los detalles de seguridad:** entrada privada, edificio con acceso controlado, estacionamiento propio y caja fuerte o un lugar seguro para tus cosas.
 - **Reserva por plataformas con protección al huésped,** para que tu pago esté seguro.
 
-En [nuestro apartamento en Pampatar](../../apartamento/) tienes entrada privada, ascensor, aparcamiento gratis en la cochera, cámara de seguridad en los exteriores, detectores de humo y de monóxido de carbono, extintor y botiquín. Y la reserva se hace por Airbnb, con su protección para huéspedes.
+En [nuestro apartamento en Pampatar](../../apartamento/) tienes entrada privada, ascensor, estacionamiento gratis en la cochera, cámara de seguridad en los exteriores, detectores de humo y de monóxido de carbono, extintor y botiquín. Y la reserva se hace por Airbnb, con su protección para huéspedes.
 
 ## Mi opinión sincera
 
@@ -109,6 +109,6 @@ Es muy recomendable, con buena cobertura médica, porque la sanidad privada es c
 
 Según el gobierno regional, en Margarita no hubo víctimas ni daños materiales. Los terremotos afectaron sobre todo a la zona central del país.
 
-### ¿Se puede usar el móvil y las tarjetas con seguridad en Margarita?
+### ¿Se puede usar el celular y las tarjetas con seguridad en Margarita?
 
-Sí, con prudencia. No muestres móviles caros en zonas poco turísticas, lleva el efectivo justo del día y no dependas de tarjetas extranjeras, porque en muchos sitios no funcionan.
+Sí, con prudencia. No muestres celulares caros en zonas poco turísticas, lleva el efectivo justo del día y no dependas de tarjetas extranjeras, porque en muchos sitios no funcionan.

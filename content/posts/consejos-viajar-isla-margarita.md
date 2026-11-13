@@ -12,7 +12,7 @@ cover: playa-con-palapas-mar-turquesa-margarita
 cover_alt: Playa con palapas y mar turquesa en Isla de Margarita
 ---
 
-Para viajar a Isla de Margarita, esto es lo esencial: se llega **en avión al aeropuerto Santiago Mariño** o **en ferry desde Puerto La Cruz o Cumaná**. En la práctica se paga sobre todo **en dólares en efectivo**. Hace calor todo el año y lo más cómodo para moverse es **alquilar un coche**. Lo ideal es quedarse **una semana** para combinar playas y excursiones.
+Para viajar a Isla de Margarita, esto es lo esencial: se llega **en avión al aeropuerto Santiago Mariño** o **en ferry desde Puerto La Cruz o Cumaná**. En la práctica se paga sobre todo **en dólares en efectivo**. Hace calor todo el año y lo más cómodo para moverse es **alquilar un carro**. Lo ideal es quedarse **una semana** para combinar playas y excursiones.
 
 Son las preguntas que más nos hacen nuestros huéspedes antes de llegar a [nuestro apartamento en Pampatar](../../apartamento/), así que las hemos reunido todas aquí.
 
@@ -20,7 +20,7 @@ Son las preguntas que más nos hacen nuestros huéspedes antes de llegar a [nues
 
 ### En avión
 
-El aeropuerto de la isla es el **Aeropuerto Internacional del Caribe Santiago Mariño**, en el sur, a unos 12 km de Porlamar y junto a la playa de El Yaque. Hasta Pampatar se tarda unos 30–40 minutos en coche.
+El aeropuerto de la isla es el **Aeropuerto Internacional del Caribe Santiago Mariño**, en el sur, a unos 12 km de Porlamar y junto a la playa de El Yaque. Hasta Pampatar se tarda unos 30–40 minutos en carro.
 
 - **Desde Venezuela:** hay vuelos directos desde Caracas y otras ciudades como Valencia, Maracaibo, Barquisimeto y Puerto Ordaz, con aerolíneas como Conviasa, Avior, Laser, Rutaca, Estelar o Turpial.
 - **Desde Panamá:** Copa Airlines empieza a volar directo de Ciudad de Panamá a Margarita el **26 de noviembre de 2026**, tres veces por semana (martes, jueves y domingo). Desde Panamá conectas con muchas ciudades de América y Europa.
@@ -31,7 +31,7 @@ Las rutas y frecuencias cambian a menudo, así que confirma siempre en la web de
 
 ### En ferry desde tierra firme
 
-Los ferris llegan al puerto de **Punta de Piedras**, en el oeste de la isla, desde **Puerto La Cruz** y **Cumaná**. La travesía dura entre 2 y 4 horas y media según el barco. Es la mejor opción si quieres llevar tu coche. En temporada alta reserva con antelación. Te lo explico paso a paso en [la guía del ferry a Margarita](../ferry-a-margarita/).
+Los ferris llegan al puerto de **Punta de Piedras**, en el oeste de la isla, desde **Puerto La Cruz** y **Cumaná**. La travesía dura entre 2 y 4 horas y media según el barco. Es la mejor opción si quieres llevar tu carro. En temporada alta reserva con antelación. Te lo explico paso a paso en [la guía del ferry a Margarita](../ferry-a-margarita/).
 
 ## Qué moneda llevar y cómo pagar
 
@@ -78,21 +78,21 @@ Para elegir playa cada día, mira [nuestra guía de las mejores playas de Margar
 
 ## Cómo moverse por la isla
 
-Margarita es pequeña: se cruza en coche en menos de una hora.
+Margarita es pequeña: se cruza en carro en menos de una hora.
 
 - **Coche de alquiler:** es la opción más cómoda para recorrer playas y pueblos a tu ritmo. En temporada alta resérvalo con antelación.
 - **Taxi:** hay muchos, pero no suelen usar taxímetro. **Pacta el precio antes de subir.**
-- **Por puesto:** minibuses y coches compartidos con rutas fijas entre los pueblos. Es la opción local y económica, aunque más lenta.
+- **Por puesto:** minibuses y carros compartidos con rutas fijas entre los pueblos. Es la opción local y económica, aunque más lenta.
 
 Si dudas en qué zona quedarte, mira [dónde alojarse en Margarita](../donde-alojarse-en-isla-margarita/).
 
-Desde el apartamento hay **aparcamiento gratis** en la cochera del edificio.
+Desde el apartamento hay **estacionamiento gratis** en la cochera del edificio.
 
 ## Electricidad, internet y teléfono
 
 - **Enchufes:** en Venezuela la corriente es de **120 V** y los enchufes son de patas planas, como en Estados Unidos. Si vienes de Europa, trae un adaptador.
 - **Internet:** en el apartamento hay wifi y una zona de trabajo preparada para teletrabajar.
-- **Móvil:** si vas a quedarte varios días, puedes comprar una tarjeta SIM local. Las compañías principales son Movistar, Digitel y Movilnet.
+- **Celular:** si vas a quedarte varios días, puedes comprar una tarjeta SIM local. Las compañías principales son Movistar, Digitel y Movilnet.
 
 ## Salud y seguridad
 
@@ -101,7 +101,7 @@ Te lo cuento con detalle y con toda sinceridad en [¿es seguro viajar a Margarit
 - **Viaja con un seguro** que cubra asistencia médica.
 - **Bebe agua embotellada.**
 - **Protégete del sol:** protector solar alto, gorra y mucha agua, incluso con nubes.
-- **Usa el sentido común,** como en cualquier destino: no dejes cosas de valor a la vista en el coche ni en la playa, y muévete en taxi de noche.
+- **Usa el sentido común,** como en cualquier destino: no dejes cosas de valor a la vista en el carro ni en la playa, y muévete en taxi de noche.
 - **Antes de viajar,** consulta los requisitos de entrada a Venezuela para tu nacionalidad y las recomendaciones de viaje de tu país.
 
 ## Qué meter en la maleta
@@ -110,7 +110,7 @@ Te lo cuento con detalle y con toda sinceridad en [¿es seguro viajar a Margarit
 - Ropa ligera y una chaqueta fina para el aire acondicionado y los aviones.
 - Bañador, sandalias y unas zapatillas para caminar.
 - Gafas de sol y gorra.
-- Funda estanca para el móvil, si vas a hacer excursiones en lancha.
+- Funda impermeable para el celular, si vas a hacer excursiones en lancha.
 - Adaptador de enchufe, si tus aparatos no son de patas planas.
 - Dólares en efectivo, en billetes pequeños.
 
@@ -146,7 +146,7 @@ Se puede ir todo el año. Las épocas más tranquilas y con mejores precios son 
 
 Lo ideal es una semana, para combinar playas, el paseo por La Restinga, una excursión a Coche o Cubagua y la ruta por La Asunción y Juan Griego.
 
-### ¿Hace falta alquilar coche en Margarita?
+### ¿Hace falta alquilar carro en Margarita?
 
 No es imprescindible, pero es lo más cómodo. También puedes moverte en taxi, pactando el precio antes de subir, o en por puesto, los minibuses compartidos.
 

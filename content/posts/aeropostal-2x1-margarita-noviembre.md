@@ -3,7 +3,7 @@ title: "Aeropostal lanza boletos 2x1 a Margarita: la excusa perfecta para venir 
 seo_title: Vuelos 2x1 a Margarita en noviembre 2026 con Aeropostal
 slug: aeropostal-2x1-margarita-noviembre
 description: Aeropostal tiene boletos 2x1 a Isla de Margarita durante todo noviembre de 2026, desde Caracas los martes y desde Valencia los jueves y domingos.
-category: consejos
+category: como-llegar
 keywords: vuelos 2x1 Margarita, Aeropostal 2x1, Aeropostal Margarita noviembre, vuelos baratos a Margarita, Caracas Porlamar, Valencia Porlamar, cómo llegar a Margarita
 date: 2026-11-07
 order: 0
